@@ -17,7 +17,7 @@
 
 ---
 
-## 🧠 Foundational Concepts
+## 🧠 Foundational Concepts <a id="foundational-concepts"></a>
 
 ### Q1. What is Generative AI and how does it differ from Discriminative AI?
 **Answer:**
@@ -25,6 +25,10 @@
   - *Example*: GPT, Stable Diffusion.
 - **Discriminative AI**: Classifies or categorizes *existing* data. It learns the **conditional probability** $P(Y|X)$.
   - *Example*: Fraud detection classifier, Spam filter.
+
+> [!TIP]
+> **Visual Reference**: [Generative vs. Discriminative Models Diagram](https://miro.medium.com/v2/resize:fit:1400/1*uHhKqW99-wZ5Hn0R_mEa8A.png)
+
 
 ### Q2. Explain the difference between GANs, VAEs, and Transformer-based generative models.
 **Answer:**
@@ -141,7 +145,7 @@ They generate data by reversing a gradual noising process.
 
 ---
 
-## 🤖 Large Language Models
+## 🤖 Large Language Models <a id="large-language-models"></a>
 
 ### Q16. How are LLMs trained? Describe the pre-training process.
 **Answer:**
@@ -251,7 +255,7 @@ Models trained on such broad data that they can be adapted to countless downstre
 
 ---
 
-## 🏗️ Transformer Architecture
+## 🏗️ Transformer Architecture <a id="transformer-architecture"></a>
 
 ### Q31. Explain the self-attention mechanism in detail.
 **Answer:**
@@ -262,6 +266,10 @@ $$ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right
 2.  **Key (K)**: What I contain.
 3.  **Value (V)**: What I pass on if I'm relevant.
 4.  **Score**: Dot product $(Q \cdot K)$ determines relevance.
+
+> [!TIP]
+> **Visual Reference**: [Transformer Architecture Diagram (Attention Is All You Need)](https://miro.medium.com/v2/resize:fit:1400/1*BhzGVskXDZFPthtP CLgWww.png)
+
 
 ### Q32. What is multi-head attention and why is it beneficial?
 **Answer:**
@@ -321,7 +329,7 @@ Evaluating quality/speed trade-off:
 
 ---
 
-## ✍️ Prompt Engineering
+## ✍️ Prompt Engineering <a id="prompt-engineering"></a>
 
 ### Q41. What is prompt engineering and why is it important?
 **Answer:**
@@ -395,9 +403,7 @@ Essential for building consistent LLM apps (LangChain).
 
 ---
 
-## RAG (Retrieval Augmented Generation)
-
-## 📚 Retrieval Augmented Generation - RAG
+## 📚 Retrieval Augmented Generation - RAG <a id="rag"></a>
 
 ### Q51. What is RAG and why is it important?
 **Answer:**
@@ -410,6 +416,10 @@ RAG combines retrieval of relevant information with LLM generation:
 - Solves the "Knowledge Cutoff" problem (gives access to live data).
 - Reduces hallucinations by grounding answers in facts.
 - Allows access to private data without fine-tuning.
+
+> [!TIP]
+> **Visual Reference**: [RAG Pipeline Workflow](https://miro.medium.com/v2/resize:fit:1400/0*s_s7yWd1t9b2-3jL)
+
 
 ### Q52. Describe the components of a RAG system.
 **Answer:**
@@ -481,7 +491,7 @@ Using frameworks like **RAGAS** or **TruLens**.
 
 ---
 
-## 🎓 Fine-Tuning & Training
+## 🎓 Fine-Tuning & Training <a id="fine-tuning-training"></a>
 
 ### Q61. What is the difference between fine-tuning and pre-training?
 **Answer:**
@@ -498,6 +508,10 @@ Using frameworks like **RAGAS** or **TruLens**.
 - **Fine-Tuning**: Need to change the **format**, **style**, or teach a new **language/specialized jargon** (e.g., Medical reports).
 > [!NOTE]
 > Fine-tuning is for *behavior*; RAG is for *knowledge*.
+
+> [!TIP]
+> **Visual Reference**: [Pre-training vs. Fine-tuning Pipeline](https://miro.medium.com/v2/resize:fit:1400/1*7S3aF3d3qV9YtZ7QxJk4gA.png)
+
 
 ### Q63. Explain LoRA (Low-Rank Adaptation).
 **Answer:**
@@ -557,7 +571,7 @@ Mimics human education; speeds up convergence.
 
 ---
 
-## 🚀 Model Deployment & MLOps
+## 🚀 Model Deployment & MLOps <a id="deployment-mlops"></a>
 
 ### Q71. What are the key considerations for deploying LLMs in production?
 **Answer:**
@@ -632,7 +646,7 @@ Treat models like code (or docker containers).
 
 ---
 
-## ⚖️ Evaluation & Metrics
+## 📊 Evaluation & Metrics <a id="evaluation-metrics"></a>
 
 ### Q81. What are common metrics for evaluating text generation quality?
 **Answer:**
@@ -672,7 +686,7 @@ Using a stronger LLM (Judge) to evaluate the outputs of a weaker/finetuned LLM.
 
 ---
 
-## 🛡️ Ethics, Safety & Bias
+## ⚖️ Ethics, Safety & Bias <a id="ethics-safety"></a>
 
 ### Q86. What are the main ethical concerns with generative AI?
 **Answer:**
@@ -712,7 +726,7 @@ Using a "Guardrails" system:
 
 ---
 
-## 🛠️ Practical Implementation
+## 💻 Practical Implementation <a id="practical-implementation"></a>
 
 ### Q91. How would you build a chatbot using LLMs?
 **Answer:**
@@ -795,7 +809,7 @@ Evaluation Matrix:
 
 ---
 
-## 💡 Interview Preparation Tips
+## 💡 Interview Preparation Tips <a id="interview-preparation-tips"></a>
 
 ### Technical Preparation
 - **Build**: Don't just read. Build a RAG app, build a discord bot.
