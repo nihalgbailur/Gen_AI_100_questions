@@ -35,7 +35,7 @@
 <a id="first-principles-thinking-prompt"></a>
 ## First Principles Thinking Prompt
 
-```
+````
 I want to understand [TOPIC] using First Principles Thinking.
 
 Please help me by:
@@ -81,14 +81,14 @@ Example format I want:
 My current understanding of [TOPIC] is: [DESCRIBE WHAT YOU KNOW]
 
 Please be Socratic - ask me questions to check my understanding at each step.
-```
+````
 
 ---
 
 <a id="feynman-technique-prompt"></a>
 ## Feynman Technique Prompt
 
-```
+````
 I want to master [TOPIC] using the Feynman Technique.
 
 Please guide me through this process:
@@ -127,14 +127,14 @@ Give me a scenario where I have to explain [TOPIC] to someone else.
 Then evaluate my explanation and point out gaps.
 
 Format each section clearly with examples and code snippets.
-```
+````
 
 ---
 
 <a id="active-recall-generator-prompt"></a>
 ## Active Recall Generator Prompt
 
-```
+````
 Generate a complete Active Recall study session for [TOPIC].
 
 Create the following recall exercises:
@@ -193,14 +193,14 @@ Code snippets where I predict output BEFORE running:
 - Why would you choose [TOPIC] over [alternative approach]?
 
 After I attempt these, provide detailed answers with explanations.
-```
+````
 
 ---
 
 <a id="spaced-repetition-flashcard-prompt"></a>
 ## Spaced Repetition Flashcard Prompt
 
-```
+````
 Create a complete Anki/Flashcard deck for [TOPIC].
 
 Generate 20 flashcards in these categories:
@@ -241,14 +241,14 @@ For each card, also provide:
 - Suggested review interval
 
 Format the output so I can easily copy into Anki or a flashcard app.
-```
+````
 
 ---
 
 <a id="mental-model-builder-prompt"></a>
 ## Mental Model Builder Prompt
 
-```
+````
 Help me build a strong mental model for [TOPIC].
 
 **1. VISUAL REPRESENTATION**
@@ -326,14 +326,14 @@ Give me a checklist to run through when using [TOPIC]:
 □ Did I consider [X]?
 □ Did I handle [Y]?
 □ Did I check for [Z]?
-```
+````
 
 ---
 
 <a id="socratic-learning-prompt"></a>
 ## Socratic Learning Prompt
 
-```
+````
 Teach me [TOPIC] using the Socratic method.
 
 Rules for this session:
@@ -379,14 +379,14 @@ Things I'm confused about:
 - [List confusions]
 
 Please begin the Socratic dialogue!
-```
+````
 
 ---
 
 <a id="interleaving-practice-prompt"></a>
 ## Interleaving Practice Prompt
 
-```
+````
 Create an interleaved practice session that mixes [TOPIC] with related concepts.
 
 **SESSION STRUCTURE (60 minutes)**
@@ -446,14 +446,14 @@ Topics I've studied recently that should be interleaved:
 3. [Topic 3]
 
 Please create this interleaved session!
-```
+````
 
 ---
 
 <a id="elaborative-interrogation-prompt"></a>
 ## Elaborative Interrogation Prompt
 
-```
+````
 Help me deeply understand [TOPIC] through Elaborative Interrogation.
 
 For [TOPIC], answer these deep questions:
@@ -509,14 +509,14 @@ Give me a "fact" about [TOPIC] and have me elaborate on WHY it's true:
 Fact: "[Statement about TOPIC]"
 My elaboration: [I explain WHY]
 Your feedback: [Correct/expand my reasoning]
-```
+````
 
 ---
 
 <a id="deliberate-practice-prompt"></a>
 ## Deliberate Practice Prompt
 
-```
+````
 Design a Deliberate Practice session for [TOPIC].
 
 **SKILL ASSESSMENT**
@@ -581,14 +581,14 @@ Create a rubric for self-assessment:
 The specific aspect of [TOPIC] I want to improve: [DESCRIBE]
 
 Please create this deliberate practice session!
-```
+````
 
 ---
 
 <a id="show-your-work-prompt"></a>
 ## Show Your Work Prompt
 
-```
+````
 Guide me through the "Show Your Work" method for [TOPIC].
 
 **STEP 1: MINIMAL WORKING EXAMPLE**
@@ -681,14 +681,14 @@ _______
 QUESTIONS I STILL HAVE:
 1. _______
 ```
-```
+````
 
 ---
 
 <a id="retrieval-practice-prompt"></a>
 ## Retrieval Practice Prompt
 
-```
+````
 Create a comprehensive Retrieval Practice session for [TOPIC].
 
 **SECTION 1: FREE RECALL (No hints)**
@@ -775,14 +775,14 @@ After each section, rate yourself:
 Overall score: ___/30
 
 Sections to review more: _______
-```
+````
 
 ---
 
 <a id="interview-preparation-prompt"></a>
 ## Interview Preparation Prompt
 
-```
+````
 Prepare me to discuss [TOPIC] in a technical interview.
 
 **PART 1: COMMON INTERVIEW QUESTIONS**
@@ -878,14 +878,14 @@ Create a one-page cheat sheet I can review 30 minutes before the interview:
 - Interview format: [Phone/Onsite/Take-home]
 
 Please customize the preparation accordingly!
-```
+````
 
 ---
 
 <a id="concept-connection-prompt"></a>
 ## Concept Connection Prompt
 
-```
+````
 Help me connect [TOPIC] to the broader Python ecosystem.
 
 **CONCEPT MAP**
@@ -959,14 +959,14 @@ Concepts I'm currently learning:
 - [List them]
 
 Please show me the connections!
-```
+````
 
 ---
 
 <a id="debug-my-understanding-prompt"></a>
 ## Debug My Understanding Prompt
 
-```
+````
 Help me debug my understanding of [TOPIC].
 
 **MY CURRENT UNDERSTANDING**
@@ -1033,14 +1033,14 @@ After this session, rate my actual understanding:
 - □ Thought I knew it, actually don't (overconfident)
 - □ Thought I didn't know it, actually do (underconfident)
 - □ Thought I didn't know it, actually don't (correctly calibrated)
-```
+````
 
 ---
 
 <a id="code-review-learning-prompt"></a>
 ## Code Review Learning Prompt
 
-```
+````
 Use code review to teach me about [TOPIC].
 
 **REVIEW MY CODE**
@@ -1107,14 +1107,14 @@ After the review, discuss:
 **FOLLOW-UP EXERCISE**
 
 Give me a similar problem to apply what I learned from this review.
-```
+````
 
 ---
 
 <a id="project-based-learning-prompt"></a>
 ## Project-Based Learning Prompt
 
-```
+````
 Design a project that teaches me [TOPIC] through building.
 
 **PROJECT SPECIFICATION**
@@ -1184,14 +1184,14 @@ At each milestone, I should be able to answer:
 - Interests: [what makes projects engaging for me]
 
 Please design this learning project!
-```
+````
 
 ---
 
 <a id="error-pattern-analysis-prompt"></a>
 ## Error Pattern Analysis Prompt
 
-```
+````
 Teach me [TOPIC] through common errors and how to fix them.
 
 **ERROR CATALOG**
@@ -1290,14 +1290,14 @@ Errors I've personally encountered with [TOPIC]:
 - [Describe an error you've seen]
 
 Help me understand why it happened and how to prevent it!
-```
+````
 
 ---
 
 <a id="comparison-deep-dive-prompt"></a>
 ## Comparison Deep Dive Prompt
 
-```
+````
 Help me deeply understand [TOPIC A] vs [TOPIC B].
 
 **SURFACE COMPARISON**
@@ -1401,14 +1401,14 @@ The specific thing I find confusing about [TOPIC A] vs [TOPIC B]:
 [Describe your confusion]
 
 Please clarify this!
-```
+````
 
 ---
 
 <a id="one-week-mastery-plan-prompt"></a>
 ## One-Week Mastery Plan Prompt
 
-```
+````
 Create a one-week intensive plan to master [TOPIC].
 
 **WEEK OVERVIEW**
@@ -1537,14 +1537,14 @@ Daily check-in questions:
 - Related topics I know: [List]
 
 Please create my personalized week plan!
-```
+````
 
 ---
 
 <a id="quick-revision-prompt"></a>
 ## Quick Revision Prompt
 
-```
+````
 I need a quick revision session for [TOPIC]. I have [X] minutes.
 
 **RAPID-FIRE ESSENTIALS**
@@ -1616,13 +1616,13 @@ After this revision, I feel:
 
 **MY TIME CONSTRAINT**
 I have exactly [X] minutes. Please prioritize accordingly!
-```
+````
 
 ---
 
 # 🎯 MASTER PROMPT: LEARN ANY TOPIC
 
-```
+````
 I want to comprehensively learn [TOPIC] using multiple techniques.
 
 Please create a learning session that includes:
@@ -1663,7 +1663,7 @@ My goal: [What I want to be able to do]
 Time available: [X] minutes
 
 Let's master [TOPIC]!
-```
+````
 
 ---
 
