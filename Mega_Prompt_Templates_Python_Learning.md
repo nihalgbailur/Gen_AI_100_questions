@@ -91,13 +91,13 @@ I want to master [TOPIC] using the Feynman Technique.
 
 Please guide me through this process:
 
-## PHASE 1: SIMPLE EXPLANATION
+**PHASE 1: SIMPLE EXPLANATION**
 Explain [TOPIC] as if I'm a 10-year-old who has never programmed.
 - Use everyday analogies (kitchen, school, games, etc.)
 - No jargon - if you must use a technical term, define it simply
 - Use a story or scenario to make it memorable
 
-## PHASE 2: ANALOGY CREATION
+**PHASE 2: ANALOGY CREATION**
 Create 3 different analogies for [TOPIC]:
 1. A physical/real-world analogy
 2. A relationship/social analogy  
@@ -107,20 +107,20 @@ For each analogy, explain:
 - How the analogy maps to the code concept
 - Where the analogy breaks down (limitations)
 
-## PHASE 3: GAP IDENTIFICATION
+**PHASE 3: GAP IDENTIFICATION**
 Based on the simple explanation, identify:
 - What important details did we oversimplify?
 - What edge cases does the simple explanation miss?
 - What would confuse someone who ONLY knew the simple version?
 
-## PHASE 4: LAYERED COMPLEXITY
+**PHASE 4: LAYERED COMPLEXITY**
 Now add layers of complexity:
 - Layer 1: Basic usage (beginner)
 - Layer 2: Common patterns (intermediate)
 - Layer 3: Advanced usage (advanced)
 - Layer 4: Internal implementation (expert)
 
-## PHASE 5: TEACHING TEST
+**PHASE 5: TEACHING TEST**
 Give me a scenario where I have to explain [TOPIC] to someone else.
 Then evaluate my explanation and point out gaps.
 
@@ -136,7 +136,7 @@ Generate a complete Active Recall study session for [TOPIC].
 
 Create the following recall exercises:
 
-## 1. BLANK PAGE TEST (5 questions)
+**1. BLANK PAGE TEST** (5 questions)
 Questions I should answer from memory about [TOPIC]:
 - Q1: [Conceptual question]
 - Q2: [Syntax question]
@@ -144,7 +144,7 @@ Questions I should answer from memory about [TOPIC]:
 - Q4: [Comparison question]
 - Q5: [Edge case question]
 
-## 2. CODE COMPLETION CHALLENGES (3 exercises)
+**2. CODE COMPLETION CHALLENGES** (3 exercises)
 Provide code with strategic blanks to fill in:
 ```python
 # Exercise 1: Basic
@@ -157,7 +157,7 @@ Provide code with strategic blanks to fill in:
 [code with _____ blanks]
 ```
 
-## 3. OUTPUT PREDICTION (5 snippets)
+**3. OUTPUT PREDICTION** (5 snippets)
 Code snippets where I predict output BEFORE running:
 ```python
 # Snippet 1
@@ -170,7 +170,7 @@ Code snippets where I predict output BEFORE running:
 ```
 (Continue for 5 snippets, increasing difficulty)
 
-## 4. ERROR PREDICTION (3 scenarios)
+**4. ERROR PREDICTION** (3 scenarios)
 "What error will this code produce and why?"
 ```python
 # Scenario 1
@@ -179,12 +179,12 @@ Code snippets where I predict output BEFORE running:
 # Reason: _______
 ```
 
-## 5. REVERSE ENGINEERING (2 challenges)
+**5. REVERSE ENGINEERING** (2 challenges)
 "Write code that produces this output:"
 - Challenge 1: [Show expected output, I write the code]
 - Challenge 2: [Show expected output, I write the code]
 
-## 6. EXPLAIN THE WHY (3 questions)
+**6. EXPLAIN THE WHY** (3 questions)
 - Why does [specific behavior] happen in [TOPIC]?
 - Why is [TOPIC] designed this way instead of [alternative]?
 - Why would you choose [TOPIC] over [alternative approach]?
@@ -201,32 +201,32 @@ Create a complete Anki/Flashcard deck for [TOPIC].
 
 Generate 20 flashcards in these categories:
 
-## CATEGORY 1: CONCEPT → CODE (5 cards)
+**CATEGORY 1: CONCEPT → CODE (5 cards)**
 Format:
 - Front: "How do you [action] using [TOPIC]?"
 - Back: [Code snippet + brief explanation]
 
-## CATEGORY 2: CODE → OUTPUT (5 cards)
+**CATEGORY 2: CODE → OUTPUT (5 cards)**
 Format:
 - Front: [Code snippet]
 - Back: [Output + explanation of why]
 
-## CATEGORY 3: ERROR → FIX (3 cards)
+**CATEGORY 3: ERROR → FIX (3 cards)**
 Format:
 - Front: "[Error message]" - What caused this?
 - Back: [Cause + Fix + Prevention tip]
 
-## CATEGORY 4: COMPARISON (3 cards)
+**CATEGORY 4: COMPARISON (3 cards)**
 Format:
 - Front: "What's the difference between [A] and [B]?"
 - Back: [Clear comparison with examples]
 
-## CATEGORY 5: WHEN TO USE (2 cards)
+**CATEGORY 5: WHEN TO USE (2 cards)**
 Format:
 - Front: "When should you use [TOPIC] instead of [alternative]?"
 - Back: [Scenario + reasoning]
 
-## CATEGORY 6: GOTCHAS (2 cards)
+**CATEGORY 6: GOTCHAS (2 cards)**
 Format:
 - Front: "What's a common mistake with [TOPIC]?"
 - Back: [Mistake + correct approach + example]
@@ -246,7 +246,7 @@ Format the output so I can easily copy into Anki or a flashcard app.
 ```
 Help me build a strong mental model for [TOPIC].
 
-## 1. VISUAL REPRESENTATION
+**1. VISUAL REPRESENTATION**
 Create ASCII art or describe a visual diagram that shows:
 - How [TOPIC] works internally
 - The relationship between components
@@ -269,7 +269,7 @@ Example format:
     └─────────┘
 ```
 
-## 2. MEMORY MODEL
+**2. MEMORY MODEL**
 Show me what happens in memory when using [TOPIC]:
 - Before execution
 - During execution (step by step)
@@ -286,12 +286,12 @@ Memory State:
 └──────────────┴───────────────┘
 ```
 
-## 3. STATE TRANSITIONS
+**3. STATE TRANSITIONS**
 Show how state changes with [TOPIC]:
 - Initial state → Action → New state
 - Provide 3 different scenarios
 
-## 4. DECISION TREE
+**4. DECISION TREE**
 When should I use [TOPIC]?
 Create a decision flowchart:
 ```
@@ -304,19 +304,19 @@ Need to [action]?
     └── No → Consider [other approach]
 ```
 
-## 5. COMMON PATTERNS
+**5. COMMON PATTERNS**
 Show 3-5 common usage patterns as "mental shortcuts":
 - Pattern name: [Name]
 - When to use: [Scenario]
 - Template code: [Code]
 
-## 6. ANTI-PATTERNS
+**6. ANTI-PATTERNS**
 Show 3 things that LOOK right but are WRONG:
 - What it looks like
 - Why it's wrong
 - What to do instead
 
-## 7. MENTAL CHECKLIST
+**7. MENTAL CHECKLIST**
 Give me a checklist to run through when using [TOPIC]:
 □ Did I consider [X]?
 □ Did I handle [Y]?
@@ -337,7 +337,7 @@ Rules for this session:
 4. Celebrate when I figure something out
 5. Redirect gently when I'm wrong
 
-## START THE DIALOGUE
+**START THE DIALOGUE**
 
 Begin with a simple question that connects [TOPIC] to something familiar.
 
@@ -347,7 +347,7 @@ After each of my responses:
 - If I'm stuck, give a small hint (not the answer)
 - If I'm wrong, ask a question that reveals the flaw in my reasoning
 
-## QUESTION PROGRESSION
+**QUESTION PROGRESSION**
 Guide me through this sequence:
 1. **Foundation**: What do I already know that relates to this?
 2. **Observation**: What do I notice about [example code]?
@@ -357,13 +357,13 @@ Guide me through this sequence:
 6. **Synthesis**: How would I explain this to someone else?
 7. **Application**: Where else could I use this?
 
-## SOCRATIC CHECKPOINTS
+**SOCRATIC CHECKPOINTS**
 At key moments, ask me to:
 - Summarize what I've learned so far
 - Explain my current mental model
 - Predict what comes next
 
-## MY CURRENT LEVEL
+**MY CURRENT LEVEL**
 I would rate my understanding of [TOPIC] as: [BEGINNER/INTERMEDIATE/ADVANCED]
 
 Things I think I know about [TOPIC]:
@@ -382,7 +382,7 @@ Please begin the Socratic dialogue!
 ```
 Create an interleaved practice session that mixes [TOPIC] with related concepts.
 
-## SESSION STRUCTURE (60 minutes)
+**SESSION STRUCTURE (60 minutes)**
 
 ### WARM-UP (10 min)
 3 quick recall questions mixing:
@@ -413,7 +413,7 @@ Create an interleaved practice session that mixes [TOPIC] with related concepts.
 - Note which combinations were hardest
 - Create 2 new problems mixing concepts
 
-## FORMAT FOR EACH PROBLEM
+**FORMAT FOR EACH PROBLEM**
 
 ```python
 # Problem N: [Difficulty]
@@ -432,7 +432,7 @@ Create an interleaved practice session that mixes [TOPIC] with related concepts.
 # [Solution code with explanation]
 ```
 
-## MY RECENT TOPICS
+**MY RECENT TOPICS**
 Topics I've studied recently that should be interleaved:
 1. [Topic 1]
 2. [Topic 2]  
@@ -450,7 +450,7 @@ Help me deeply understand [TOPIC] through Elaborative Interrogation.
 
 For [TOPIC], answer these deep questions:
 
-## THE SEVEN DEEP WHYS
+**THE SEVEN DEEP WHYS**
 
 ### 1. WHY does [TOPIC] exist?
 - What problem was Python trying to solve?
@@ -487,14 +487,14 @@ For [TOPIC], answer these deep questions:
 - What debugging does this knowledge enable?
 - What advanced techniques does this unlock?
 
-## CONNECT THE DOTS
+**CONNECT THE DOTS**
 
 After answering the WHYs, show me:
 - How [TOPIC] connects to 3 other Python concepts
 - A "concept map" showing relationships
 - One insight that changes how I should think about [TOPIC]
 
-## ELABORATION EXERCISE
+**ELABORATION EXERCISE**
 
 Give me a "fact" about [TOPIC] and have me elaborate on WHY it's true:
 
@@ -510,7 +510,7 @@ Your feedback: [Correct/expand my reasoning]
 ```
 Design a Deliberate Practice session for [TOPIC].
 
-## SKILL ASSESSMENT
+**SKILL ASSESSMENT**
 
 First, help me identify my current level:
 
@@ -523,7 +523,7 @@ First, help me identify my current level:
 
 Based on my answers: [DESCRIBE YOUR LEVEL]
 
-## ZONE OF PROXIMAL DEVELOPMENT
+**ZONE OF PROXIMAL DEVELOPMENT**
 
 Create exercises that are JUST beyond my current ability:
 
@@ -542,7 +542,7 @@ Create exercises that are JUST beyond my current ability:
 - Exercise 3.2: [Performance-critical implementation]
 - Exercise 3.3: [Design your own [TOPIC]-based solution]
 
-## IMMEDIATE FEEDBACK
+**IMMEDIATE FEEDBACK**
 
 For each exercise, provide:
 1. Success criteria (how do I know I did it right?)
@@ -553,14 +553,14 @@ For each exercise, provide:
    - What did I learn?
    - What would I do differently?
 
-## STRUGGLE POINTS
+**STRUGGLE POINTS**
 
 Identify 3 specific sub-skills within [TOPIC] that are typically challenging:
 1. [Sub-skill 1] - Practice drill: [Specific exercise]
 2. [Sub-skill 2] - Practice drill: [Specific exercise]
 3. [Sub-skill 3] - Practice drill: [Specific exercise]
 
-## PROGRESS TRACKING
+**PROGRESS TRACKING**
 
 Create a rubric for self-assessment:
 | Skill | Novice | Developing | Proficient | Expert |
@@ -568,7 +568,7 @@ Create a rubric for self-assessment:
 | [Skill 1] | [criteria] | [criteria] | [criteria] | [criteria] |
 | [Skill 2] | [criteria] | [criteria] | [criteria] | [criteria] |
 
-## MY FOCUS AREA
+**MY FOCUS AREA**
 The specific aspect of [TOPIC] I want to improve: [DESCRIBE]
 
 Please create this deliberate practice session!
@@ -581,14 +581,14 @@ Please create this deliberate practice session!
 ```
 Guide me through the "Show Your Work" method for [TOPIC].
 
-## STEP 1: MINIMAL WORKING EXAMPLE
+**STEP 1: MINIMAL WORKING EXAMPLE**
 Create the absolute simplest code that demonstrates [TOPIC]:
 ```python
 # The simplest possible example of [TOPIC]
 [code - no more than 5 lines if possible]
 ```
 
-## STEP 2: LINE-BY-LINE EXPLANATION
+**STEP 2: LINE-BY-LINE EXPLANATION**
 For the code above, explain EVERY line:
 ```python
 # Line 1: [What it does] [WHY it's needed]
@@ -596,7 +596,7 @@ For the code above, explain EVERY line:
 # ... continue for all lines
 ```
 
-## STEP 3: PREDICT OUTPUT
+**STEP 3: PREDICT OUTPUT**
 Show me the code and ask me to predict:
 ```python
 [code]
@@ -606,7 +606,7 @@ Show me the code and ask me to predict:
 
 Then reveal the actual output and explain any surprises.
 
-## STEP 4: MODIFY & PREDICT
+**STEP 4: MODIFY & PREDICT**
 Make ONE small change and have me predict again:
 ```python
 # Original:
@@ -621,7 +621,7 @@ Make ONE small change and have me predict again:
 
 Repeat this 3 times with different modifications.
 
-## STEP 5: IDENTIFY TRAPS
+**STEP 5: IDENTIFY TRAPS**
 List the top 5 common mistakes/traps with [TOPIC]:
 
 | Trap | What it looks like | Why it's wrong | Correct approach |
@@ -630,11 +630,11 @@ List the top 5 common mistakes/traps with [TOPIC]:
 | 2 | [code] | [reason] | [fix] |
 | ... | ... | ... | ... |
 
-## STEP 6: SUMMARIZE CORE CONCEPT
+**STEP 6: SUMMARIZE CORE CONCEPT**
 Help me create a one-sentence summary:
 "[TOPIC] is _____________ that allows you to _____________ by _____________."
 
-## STEP 7: REFLECTIVE DEEPENING
+**STEP 7: REFLECTIVE DEEPENING**
 
 ### For a 5-year-old:
 "[TOPIC] is like when you ____________..."
@@ -645,7 +645,7 @@ Help me create a one-sentence summary:
 ### Real-world parallel:
 "In real life, this is similar to how ____________..."
 
-## DOCUMENTATION TEMPLATE
+**DOCUMENTATION TEMPLATE**
 Fill this out as I learn:
 
 ```
@@ -680,7 +680,7 @@ QUESTIONS I STILL HAVE:
 ```
 Create a comprehensive Retrieval Practice session for [TOPIC].
 
-## SECTION 1: FREE RECALL (No hints)
+**SECTION 1: FREE RECALL (No hints)**
 
 "Write everything you know about [TOPIC] in 3 minutes. 
 Don't look anything up. Just dump your brain."
@@ -691,7 +691,7 @@ After I write my response, tell me:
 - What I got wrong
 - Percentage score estimate
 
-## SECTION 2: CUED RECALL
+**SECTION 2: CUED RECALL**
 
 Fill in the blanks (keywords removed):
 ```python
@@ -701,7 +701,7 @@ Fill in the blanks (keywords removed):
 [Paragraph with 5-7 strategic blanks]
 ```
 
-## SECTION 3: CODE RECALL
+**SECTION 3: CODE RECALL**
 
 ### 3.1 Write from memory
 "Write the code to [common task with TOPIC] without any references."
@@ -722,7 +722,7 @@ def function_name(params):
     return _______
 ```
 
-## SECTION 4: RECOGNITION VS RECALL
+**SECTION 4: RECOGNITION VS RECALL**
 
 ### Multiple Choice (Recognition)
 Which of these correctly demonstrates [TOPIC]?
@@ -734,7 +734,7 @@ D) [code option]
 ### Now Write It (Recall)
 Now write your own example of [TOPIC] (harder than recognizing!)
 
-## SECTION 5: APPLICATION RECALL
+**SECTION 5: APPLICATION RECALL**
 
 "You're building [scenario]. How would you use [TOPIC]?"
 
@@ -743,7 +743,7 @@ Think through:
 2. How you would implement it
 3. What edge cases to consider
 
-## SECTION 6: TEACHING RECALL
+**SECTION 6: TEACHING RECALL**
 
 "Explain [TOPIC] to someone who knows Python basics but hasn't learned this yet."
 
@@ -752,7 +752,7 @@ Think through:
 - Explain the key rules
 - Warn about common mistakes
 
-## SCORING RUBRIC
+**SCORING RUBRIC**
 
 After each section, rate yourself:
 - 5: Perfect recall, no hesitation
@@ -773,7 +773,7 @@ Sections to review more: _______
 ```
 Prepare me to discuss [TOPIC] in a technical interview.
 
-## PART 1: COMMON INTERVIEW QUESTIONS
+**PART 1: COMMON INTERVIEW QUESTIONS**
 
 Generate 10 interview questions about [TOPIC], ranging from basic to advanced:
 
@@ -795,7 +795,7 @@ Generate 10 interview questions about [TOPIC], ranging from basic to advanced:
 9. [Question]
 10. [Question]
 
-## PART 2: MODEL ANSWERS
+**PART 2: MODEL ANSWERS**
 
 For each question, provide:
 - ✅ Strong answer (what impresses interviewers)
@@ -803,7 +803,7 @@ For each question, provide:
 - ❌ Red flag answer (what raises concerns)
 - 💡 Follow-up questions interviewer might ask
 
-## PART 3: CODING CHALLENGES
+**PART 3: CODING CHALLENGES**
 
 ### Challenge 1: Basic Implementation
 ```
@@ -837,21 +837,21 @@ Follow-ups:
 - What if this runs in a multi-threaded environment?
 ```
 
-## PART 4: BEHAVIORAL QUESTIONS
+**PART 4: BEHAVIORAL QUESTIONS**
 
 "Tell me about a time you used [TOPIC] to solve a problem."
 - STAR format template
 - What they're really asking
 - Red flags to avoid
 
-## PART 5: WHITEBOARD SIMULATION
+**PART 5: WHITEBOARD SIMULATION**
 
 "Walk me through how [TOPIC] works internally."
 - What to draw on the whiteboard
 - Key points to hit
 - How to handle "I don't know"
 
-## PART 6: QUICK REFERENCE CARD
+**PART 6: QUICK REFERENCE CARD**
 
 Create a one-page cheat sheet I can review 30 minutes before the interview:
 - Key syntax
@@ -860,7 +860,7 @@ Create a one-page cheat sheet I can review 30 minutes before the interview:
 - Gotchas to mention
 - Impressive insights to drop
 
-## MY INTERVIEW CONTEXT
+**MY INTERVIEW CONTEXT**
 - Company type: [FAANG/Startup/etc.]
 - Role level: [Junior/Mid/Senior]
 - Interview format: [Phone/Onsite/Take-home]
@@ -875,7 +875,7 @@ Please customize the preparation accordingly!
 ```
 Help me connect [TOPIC] to the broader Python ecosystem.
 
-## CONCEPT MAP
+**CONCEPT MAP**
 
 Create a visual concept map showing how [TOPIC] relates to:
 
@@ -892,21 +892,21 @@ Create a visual concept map showing how [TOPIC] relates to:
    └──────────┘     └──────────┘     └──────────┘
 ```
 
-## PREREQUISITE CHAIN
+**PREREQUISITE CHAIN**
 
 What concepts must I understand BEFORE [TOPIC]?
 ```
 [Fundamental 1] → [Building Block] → [Prerequisite] → [TOPIC]
 ```
 
-## BUILDS TOWARD
+**BUILDS TOWARD**
 
 What advanced concepts does [TOPIC] enable?
 ```
 [TOPIC] → [Intermediate Use] → [Advanced Application] → [Expert Pattern]
 ```
 
-## RELATED CONCEPTS COMPARISON
+**RELATED CONCEPTS COMPARISON**
 
 | Aspect | [TOPIC] | [Related 1] | [Related 2] |
 |--------|---------|-------------|-------------|
@@ -915,7 +915,7 @@ What advanced concepts does [TOPIC] enable?
 | Performance | | | |
 | Use case | | | |
 
-## PATTERN RECOGNITION
+**PATTERN RECOGNITION**
 
 Show me how [TOPIC] appears in:
 1. **Standard Library**: Which modules use this?
@@ -923,7 +923,7 @@ Show me how [TOPIC] appears in:
 3. **Data Science**: Pandas, NumPy connections
 4. **Design Patterns**: Which patterns leverage this?
 
-## ANALOGY BRIDGES
+**ANALOGY BRIDGES**
 
 Connect [TOPIC] to concepts in:
 - Other programming languages (Java, JavaScript, etc.)
@@ -931,14 +931,14 @@ Connect [TOPIC] to concepts in:
 - Real-world systems
 - Other Python concepts I already know
 
-## SYNTHESIS EXERCISE
+**SYNTHESIS EXERCISE**
 
 Create a small project that combines [TOPIC] with:
 - [Concept I learned last week]
 - [Concept I'm comfortable with]
 - [Concept I want to learn next]
 
-## MY KNOWLEDGE CONTEXT
+**MY KNOWLEDGE CONTEXT**
 Concepts I already understand well:
 - [List them]
 
@@ -955,14 +955,14 @@ Please show me the connections!
 ```
 Help me debug my understanding of [TOPIC].
 
-## MY CURRENT UNDERSTANDING
+**MY CURRENT UNDERSTANDING**
 
 Here's what I THINK I know about [TOPIC]:
 ```
 [Write your current understanding in your own words]
 ```
 
-## MISCONCEPTION CHECK
+**MISCONCEPTION CHECK**
 
 Based on my explanation above:
 1. What did I get RIGHT? (Validate correct understanding)
@@ -970,7 +970,7 @@ Based on my explanation above:
 3. What did I MISS? (Gaps in knowledge)
 4. What did I OVERSIMPLIFY? (Nuances I'm missing)
 
-## BELIEF TESTING
+**BELIEF TESTING**
 
 I believe these statements are true. Please test each:
 
@@ -978,7 +978,7 @@ I believe these statements are true. Please test each:
 2. "[Another statement]" - TRUE/FALSE? Why?
 3. "[Another statement]" - TRUE/FALSE? Why?
 
-## CODE PREDICTION DEBUG
+**CODE PREDICTION DEBUG**
 
 I think this code will output [X]:
 ```python
@@ -987,21 +987,21 @@ I think this code will output [X]:
 
 Am I right? If not, where did my reasoning go wrong?
 
-## EDGE CASE BLINDSPOTS
+**EDGE CASE BLINDSPOTS**
 
 What edge cases with [TOPIC] would surprise me?
 - Edge case 1: [What happens when...]
 - Edge case 2: [What happens when...]
 - Edge case 3: [What happens when...]
 
-## MENTAL MODEL CORRECTION
+**MENTAL MODEL CORRECTION**
 
 If my mental model of [TOPIC] is flawed, show me:
 1. My broken mental model (how I'm thinking about it)
 2. The correct mental model (how I should think about it)
 3. Why the broken model leads to errors
 
-## SOCRATIC DEBUGGING
+**SOCRATIC DEBUGGING**
 
 Ask me 5 questions that expose gaps in my understanding:
 1. [Question that reveals if I understand X]
@@ -1012,7 +1012,7 @@ Ask me 5 questions that expose gaps in my understanding:
 
 I'll answer, then you tell me what my answers reveal about my understanding.
 
-## CALIBRATION
+**CALIBRATION**
 
 After this session, rate my actual understanding:
 - □ Thought I knew it, actually do (correctly calibrated)
@@ -1028,7 +1028,7 @@ After this session, rate my actual understanding:
 ```
 Use code review to teach me about [TOPIC].
 
-## REVIEW MY CODE
+**REVIEW MY CODE**
 
 Here's my code using [TOPIC]:
 ```python
@@ -1062,7 +1062,7 @@ Please review it considering:
 - Are names meaningful?
 - Would comments help?
 
-## FEEDBACK FORMAT
+**FEEDBACK FORMAT**
 
 For each issue found, provide:
 ```
@@ -1074,7 +1074,7 @@ SUGGESTED CODE: [what it should be]
 LEARNING: [What this teaches about TOPIC]
 ```
 
-## COMPARATIVE VERSIONS
+**COMPARATIVE VERSIONS**
 
 Show me:
 1. **My version** (as-is)
@@ -1082,14 +1082,14 @@ Show me:
 3. **Expert version** (how a senior dev would write it)
 4. **Over-engineered version** (when NOT to do this)
 
-## DISCUSSION QUESTIONS
+**DISCUSSION QUESTIONS**
 
 After the review, discuss:
 - What was the biggest issue and why?
 - What did I do well?
 - What pattern should I remember for next time?
 
-## FOLLOW-UP EXERCISE
+**FOLLOW-UP EXERCISE**
 
 Give me a similar problem to apply what I learned from this review.
 ```
@@ -1101,7 +1101,7 @@ Give me a similar problem to apply what I learned from this review.
 ```
 Design a project that teaches me [TOPIC] through building.
 
-## PROJECT SPECIFICATION
+**PROJECT SPECIFICATION**
 
 ### Project Name: [Catchy name]
 
@@ -1119,7 +1119,7 @@ By completing this project, I will understand:
 - [TOPIC] coverage: [Which aspects of TOPIC this exercises]
 - Engagement factor: [Why this is interesting to build]
 
-## MILESTONE BREAKDOWN
+**MILESTONE BREAKDOWN**
 
 ### Milestone 1: Foundation (Day 1)
 **Goal**: [What I'll accomplish]
@@ -1145,24 +1145,24 @@ By completing this project, I will understand:
 **Goal**: [What I'll accomplish]
 **Focus**: Error handling, edge cases, optimization
 
-## STRETCH GOALS
+**STRETCH GOALS**
 If I want to go further:
 - [ ] [Advanced feature 1]
 - [ ] [Advanced feature 2]
 - [ ] [Integration with another concept]
 
-## LEARNING CHECKPOINTS
+**LEARNING CHECKPOINTS**
 
 At each milestone, I should be able to answer:
 - Milestone 1 checkpoint: [Question to verify understanding]
 - Milestone 2 checkpoint: [Question to verify understanding]
 - Milestone 3 checkpoint: [Question to verify understanding]
 
-## RESOURCES ALLOWED
+**RESOURCES ALLOWED**
 - ✅ [What I can reference]
 - ❌ [What I shouldn't just copy]
 
-## MY CONTEXT
+**MY CONTEXT**
 - Time available: [hours per day]
 - Current skill level: [beginner/intermediate/advanced]
 - Interests: [what makes projects engaging for me]
@@ -1177,7 +1177,7 @@ Please design this learning project!
 ```
 Teach me [TOPIC] through common errors and how to fix them.
 
-## ERROR CATALOG
+**ERROR CATALOG**
 
 ### Error Type 1: [Name]
 **The Error**:
@@ -1220,7 +1220,7 @@ Teach me [TOPIC] through common errors and how to fix them.
 
 [Continue for 5-7 common errors]
 
-## ERROR DIAGNOSIS PRACTICE
+**ERROR DIAGNOSIS PRACTICE**
 
 ### Scenario 1
 ```python
@@ -1237,7 +1237,7 @@ Teach me [TOPIC] through common errors and how to fix them.
 ### Scenario 3
 [Same format]
 
-## ERROR PREVENTION CHECKLIST
+**ERROR PREVENTION CHECKLIST**
 
 Before using [TOPIC], always check:
 □ [Check 1]
@@ -1246,7 +1246,7 @@ Before using [TOPIC], always check:
 □ [Check 4]
 □ [Check 5]
 
-## DEBUGGING STRATEGIES
+**DEBUGGING STRATEGIES**
 
 When you encounter an error with [TOPIC]:
 
@@ -1260,7 +1260,7 @@ When you encounter an error with [TOPIC]:
 [debugging code snippets]
 ```
 
-## ERROR FREQUENCY MAP
+**ERROR FREQUENCY MAP**
 
 | Error | Frequency | Severity | Usually Caused By |
 |-------|-----------|----------|-------------------|
@@ -1268,7 +1268,7 @@ When you encounter an error with [TOPIC]:
 | [Error 2] | Common | Medium | [Cause] |
 | [Error 3] | Rare | High | [Cause] |
 
-## MY ERROR HISTORY
+**MY ERROR HISTORY**
 Errors I've personally encountered with [TOPIC]:
 - [Describe an error you've seen]
 
@@ -1282,7 +1282,7 @@ Help me understand why it happened and how to prevent it!
 ```
 Help me deeply understand [TOPIC A] vs [TOPIC B].
 
-## SURFACE COMPARISON
+**SURFACE COMPARISON**
 
 | Aspect | [TOPIC A] | [TOPIC B] |
 |--------|-----------|-----------|
@@ -1293,7 +1293,7 @@ Help me deeply understand [TOPIC A] vs [TOPIC B].
 | Memory usage | | |
 | Common use cases | | |
 
-## CODE COMPARISON
+**CODE COMPARISON**
 
 Show the same task done with both:
 
@@ -1307,7 +1307,7 @@ Show the same task done with both:
 [code]
 ```
 
-## WHEN TO USE WHICH
+**WHEN TO USE WHICH**
 
 ### Use [TOPIC A] when:
 - [Scenario 1]
@@ -1322,7 +1322,7 @@ Show the same task done with both:
 ### It doesn't matter when:
 - [Scenario where both work equally well]
 
-## DEEP DIFFERENCES
+**DEEP DIFFERENCES**
 
 ### Internal Implementation
 - [TOPIC A] works by: [explanation]
@@ -1340,7 +1340,7 @@ Operation        | [TOPIC A]  | [TOPIC B]
 ### Memory Behavior
 [Explain memory differences with examples]
 
-## COMMON CONFUSION
+**COMMON CONFUSION**
 
 ### People often think: [Misconception]
 ### Reality: [Truth]
@@ -1348,7 +1348,7 @@ Operation        | [TOPIC A]  | [TOPIC B]
 ### People often confuse: [Mix-up]
 ### The key difference is: [Clarification]
 
-## CONVERSION BETWEEN THEM
+**CONVERSION BETWEEN THEM**
 
 ```python
 # Converting [TOPIC A] to [TOPIC B]:
@@ -1361,7 +1361,7 @@ Operation        | [TOPIC A]  | [TOPIC B]
 [explanation]
 ```
 
-## PRACTICE: CHOOSE THE RIGHT ONE
+**PRACTICE: CHOOSE THE RIGHT ONE**
 
 For each scenario, which should I use and why?
 
@@ -1371,13 +1371,13 @@ For each scenario, which should I use and why?
 4. [Scenario 4] → [A or B]? Because: _______
 5. [Scenario 5] → [A or B]? Because: _______
 
-## HISTORICAL CONTEXT
+**HISTORICAL CONTEXT**
 
 Why do both exist? What's the history?
 - [TOPIC A] was created because: [reason]
 - [TOPIC B] was created because: [reason]
 
-## MY CONFUSION
+**MY CONFUSION**
 
 The specific thing I find confusing about [TOPIC A] vs [TOPIC B]:
 [Describe your confusion]
@@ -1392,7 +1392,7 @@ Please clarify this!
 ```
 Create a one-week intensive plan to master [TOPIC].
 
-## WEEK OVERVIEW
+**WEEK OVERVIEW**
 
 **Goal**: Go from [current level] to [target level] in [TOPIC]
 
@@ -1406,7 +1406,7 @@ Create a one-week intensive plan to master [TOPIC].
 
 ---
 
-## DAY 1: FOUNDATIONS
+**DAY 1: FOUNDATIONS**
 **Theme**: Understanding the basics
 
 **Morning (Theory):**
@@ -1428,7 +1428,7 @@ Create a one-week intensive plan to master [TOPIC].
 
 ---
 
-## DAY 2: CORE MECHANICS
+**DAY 2: CORE MECHANICS**
 **Theme**: How [TOPIC] really works
 
 **Morning (Theory):**
@@ -1444,35 +1444,35 @@ Create a one-week intensive plan to master [TOPIC].
 
 ---
 
-## DAY 3: COMMON PATTERNS
+**DAY 3: COMMON PATTERNS**
 **Theme**: Real-world usage patterns
 
 [Same structure...]
 
 ---
 
-## DAY 4: EDGE CASES & GOTCHAS
+**DAY 4: EDGE CASES & GOTCHAS**
 **Theme**: What can go wrong
 
 [Same structure...]
 
 ---
 
-## DAY 5: INTEGRATION
+**DAY 5: INTEGRATION**
 **Theme**: Combining with other concepts
 
 [Same structure...]
 
 ---
 
-## DAY 6: ADVANCED TECHNIQUES
+**DAY 6: ADVANCED TECHNIQUES**
 **Theme**: Going deeper
 
 [Same structure...]
 
 ---
 
-## DAY 7: MASTERY TEST
+**DAY 7: MASTERY TEST**
 **Theme**: Proving your knowledge
 
 **Morning:**
@@ -1492,7 +1492,7 @@ Create a one-week intensive plan to master [TOPIC].
 
 ---
 
-## RESOURCES FOR THE WEEK
+**RESOURCES FOR THE WEEK**
 
 **Must-read:**
 - [Resource 1]
@@ -1504,14 +1504,14 @@ Create a one-week intensive plan to master [TOPIC].
 **Must-build:**
 - [Mini-project ideas]
 
-## ACCOUNTABILITY
+**ACCOUNTABILITY**
 
 Daily check-in questions:
 1. What did I learn today?
 2. What confused me?
 3. What will I do differently tomorrow?
 
-## MY CONTEXT
+**MY CONTEXT**
 - Current level with [TOPIC]: [Beginner/Intermediate/Advanced]
 - Available hours per day: [X]
 - Best learning style: [Reading/Videos/Coding/Mixed]
@@ -1527,7 +1527,7 @@ Please create my personalized week plan!
 ```
 I need a quick revision session for [TOPIC]. I have [X] minutes.
 
-## RAPID-FIRE ESSENTIALS
+**RAPID-FIRE ESSENTIALS**
 
 ### 30-Second Summary
 [TOPIC] in one breath: _______________
@@ -1548,7 +1548,7 @@ I need a quick revision session for [TOPIC]. I have [X] minutes.
 2. ❌ _______________
 3. ❌ _______________
 
-## 5-MINUTE DRILL
+**5-MINUTE DRILL**
 
 ### Quick Quiz (30 seconds each)
 1. [Question] → Answer: ___
@@ -1570,7 +1570,7 @@ Find the bug:
 [buggy code]
 ```
 
-## LAST-MINUTE REMINDERS
+**LAST-MINUTE REMINDERS**
 
 ### If you see [X], think [Y]
 - See [pattern] → Use [approach]
@@ -1587,14 +1587,14 @@ The impressive thing to mention: [insight]
 | [Op 1] | O(?) | O(?) |
 | [Op 2] | O(?) | O(?) |
 
-## POST-REVISION CONFIDENCE CHECK
+**POST-REVISION CONFIDENCE CHECK**
 
 After this revision, I feel:
 - [ ] Ready (can explain and code confidently)
 - [ ] Mostly ready (might need a hint)
 - [ ] Need more review (should revisit)
 
-## MY TIME CONSTRAINT
+**MY TIME CONSTRAINT**
 I have exactly [X] minutes. Please prioritize accordingly!
 ```
 
