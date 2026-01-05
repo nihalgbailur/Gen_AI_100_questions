@@ -7,29 +7,32 @@
 
 ## 📋 TABLE OF CONTENTS
 
-1. [First Principles Thinking Prompt](#1-first-principles-thinking-prompt)
-2. [Feynman Technique Prompt](#2-feynman-technique-prompt)
-3. [Active Recall Generator Prompt](#3-active-recall-generator-prompt)
-4. [Spaced Repetition Flashcard Prompt](#4-spaced-repetition-flashcard-prompt)
-5. [Mental Model Builder Prompt](#5-mental-model-builder-prompt)
-6. [Socratic Learning Prompt](#6-socratic-learning-prompt)
-7. [Interleaving Practice Prompt](#7-interleaving-practice-prompt)
-8. [Elaborative Interrogation Prompt](#8-elaborative-interrogation-prompt)
-9. [Deliberate Practice Prompt](#9-deliberate-practice-prompt)
-10. [Show Your Work Prompt](#10-show-your-work-prompt)
-11. [Retrieval Practice Prompt](#11-retrieval-practice-prompt)
-12. [Interview Preparation Prompt](#12-interview-preparation-prompt)
-13. [Concept Connection Prompt](#13-concept-connection-prompt)
-14. [Debug My Understanding Prompt](#14-debug-my-understanding-prompt)
-15. [Code Review Learning Prompt](#15-code-review-learning-prompt)
-16. [Project-Based Learning Prompt](#16-project-based-learning-prompt)
-17. [Error Pattern Analysis Prompt](#17-error-pattern-analysis-prompt)
-18. [Comparison Deep Dive Prompt](#18-comparison-deep-dive-prompt)
-19. [One-Week Mastery Plan Prompt](#19-one-week-mastery-plan-prompt)
-20. [Quick Revision Prompt](#20-quick-revision-prompt)
+| # | Prompt | Description |
+|---|--------|-------------|
+| 1 | [First Principles Thinking](#1-first-principles-thinking-prompt) | Break down concepts to fundamentals |
+| 2 | [Feynman Technique](#2-feynman-technique-prompt) | Explain like teaching a child |
+| 3 | [Active Recall Generator](#3-active-recall-generator-prompt) | Test your memory actively |
+| 4 | [Spaced Repetition Flashcards](#4-spaced-repetition-flashcard-prompt) | Create Anki-style cards |
+| 5 | [Mental Model Builder](#5-mental-model-builder-prompt) | Visualize how things work |
+| 6 | [Socratic Learning](#6-socratic-learning-prompt) | Learn through questions |
+| 7 | [Interleaving Practice](#7-interleaving-practice-prompt) | Mix multiple topics |
+| 8 | [Elaborative Interrogation](#8-elaborative-interrogation-prompt) | Deep "why" questions |
+| 9 | [Deliberate Practice](#9-deliberate-practice-prompt) | Targeted skill improvement |
+| 10 | [Show Your Work](#10-show-your-work-prompt) | Step-by-step understanding |
+| 11 | [Retrieval Practice](#11-retrieval-practice-prompt) | Pull knowledge from memory |
+| 12 | [Interview Preparation](#12-interview-preparation-prompt) | Technical interview ready |
+| 13 | [Concept Connection](#13-concept-connection-prompt) | Link related concepts |
+| 14 | [Debug My Understanding](#14-debug-my-understanding-prompt) | Find knowledge gaps |
+| 15 | [Code Review Learning](#15-code-review-learning-prompt) | Learn from code reviews |
+| 16 | [Project-Based Learning](#16-project-based-learning-prompt) | Build to learn |
+| 17 | [Error Pattern Analysis](#17-error-pattern-analysis-prompt) | Learn from mistakes |
+| 18 | [Comparison Deep Dive](#18-comparison-deep-dive-prompt) | Compare similar concepts |
+| 19 | [One-Week Mastery Plan](#19-one-week-mastery-plan-prompt) | Structured learning plan |
+| 20 | [Quick Revision](#20-quick-revision-prompt) | Fast review sessions |
 
 ---
 
+<a id="1-first-principles-thinking-prompt"></a>
 # 1. FIRST PRINCIPLES THINKING PROMPT
 
 ```
@@ -82,6 +85,7 @@ Please be Socratic - ask me questions to check my understanding at each step.
 
 ---
 
+<a id="2-feynman-technique-prompt"></a>
 # 2. FEYNMAN TECHNIQUE PROMPT
 
 ```
@@ -127,6 +131,7 @@ Format each section clearly with examples and code snippets.
 
 ---
 
+<a id="3-active-recall-generator-prompt"></a>
 # 3. ACTIVE RECALL GENERATOR PROMPT
 
 ```
@@ -192,6 +197,7 @@ After I attempt these, provide detailed answers with explanations.
 
 ---
 
+<a id="4-spaced-repetition-flashcard-prompt"></a>
 # 4. SPACED REPETITION FLASHCARD PROMPT
 
 ```
@@ -239,6 +245,7 @@ Format the output so I can easily copy into Anki or a flashcard app.
 
 ---
 
+<a id="5-mental-model-builder-prompt"></a>
 # 5. MENTAL MODEL BUILDER PROMPT
 
 ```
@@ -323,6 +330,7 @@ Give me a checklist to run through when using [TOPIC]:
 
 ---
 
+<a id="6-socratic-learning-prompt"></a>
 # 6. SOCRATIC LEARNING PROMPT
 
 ```
@@ -375,6 +383,7 @@ Please begin the Socratic dialogue!
 
 ---
 
+<a id="7-interleaving-practice-prompt"></a>
 # 7. INTERLEAVING PRACTICE PROMPT
 
 ```
@@ -441,6 +450,7 @@ Please create this interleaved session!
 
 ---
 
+<a id="8-elaborative-interrogation-prompt"></a>
 # 8. ELABORATIVE INTERROGATION PROMPT
 
 ```
@@ -503,6 +513,7 @@ Your feedback: [Correct/expand my reasoning]
 
 ---
 
+<a id="9-deliberate-practice-prompt"></a>
 # 9. DELIBERATE PRACTICE PROMPT
 
 ```
@@ -574,6 +585,7 @@ Please create this deliberate practice session!
 
 ---
 
+<a id="10-show-your-work-prompt"></a>
 # 10. SHOW YOUR WORK PROMPT
 
 ```
@@ -673,6 +685,7 @@ QUESTIONS I STILL HAVE:
 
 ---
 
+<a id="11-retrieval-practice-prompt"></a>
 # 11. RETRIEVAL PRACTICE PROMPT
 
 ```
@@ -766,6 +779,7 @@ Sections to review more: _______
 
 ---
 
+<a id="12-interview-preparation-prompt"></a>
 # 12. INTERVIEW PREPARATION PROMPT
 
 ```
@@ -868,6 +882,7 @@ Please customize the preparation accordingly!
 
 ---
 
+<a id="13-concept-connection-prompt"></a>
 # 13. CONCEPT CONNECTION PROMPT
 
 ```
@@ -948,6 +963,7 @@ Please show me the connections!
 
 ---
 
+<a id="14-debug-my-understanding-prompt"></a>
 # 14. DEBUG MY UNDERSTANDING PROMPT
 
 ```
@@ -1021,6 +1037,7 @@ After this session, rate my actual understanding:
 
 ---
 
+<a id="15-code-review-learning-prompt"></a>
 # 15. CODE REVIEW LEARNING PROMPT
 
 ```
@@ -1094,6 +1111,7 @@ Give me a similar problem to apply what I learned from this review.
 
 ---
 
+<a id="16-project-based-learning-prompt"></a>
 # 16. PROJECT-BASED LEARNING PROMPT
 
 ```
@@ -1170,6 +1188,7 @@ Please design this learning project!
 
 ---
 
+<a id="17-error-pattern-analysis-prompt"></a>
 # 17. ERROR PATTERN ANALYSIS PROMPT
 
 ```
@@ -1275,6 +1294,7 @@ Help me understand why it happened and how to prevent it!
 
 ---
 
+<a id="18-comparison-deep-dive-prompt"></a>
 # 18. COMPARISON DEEP DIVE PROMPT
 
 ```
@@ -1385,6 +1405,7 @@ Please clarify this!
 
 ---
 
+<a id="19-one-week-mastery-plan-prompt"></a>
 # 19. ONE-WEEK MASTERY PLAN PROMPT
 
 ```
@@ -1520,6 +1541,7 @@ Please create my personalized week plan!
 
 ---
 
+<a id="20-quick-revision-prompt"></a>
 # 20. QUICK REVISION PROMPT
 
 ```
