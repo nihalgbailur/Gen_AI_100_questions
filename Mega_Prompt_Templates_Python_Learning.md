@@ -32,6 +32,7 @@
 
 ---
 
+<a id="first-principles-thinking-prompt"></a>
 ## First Principles Thinking Prompt
 
 ```
@@ -84,6 +85,7 @@ Please be Socratic - ask me questions to check my understanding at each step.
 
 ---
 
+<a id="feynman-technique-prompt"></a>
 ## Feynman Technique Prompt
 
 ```
@@ -129,6 +131,7 @@ Format each section clearly with examples and code snippets.
 
 ---
 
+<a id="active-recall-generator-prompt"></a>
 ## Active Recall Generator Prompt
 
 ```
@@ -194,6 +197,7 @@ After I attempt these, provide detailed answers with explanations.
 
 ---
 
+<a id="spaced-repetition-flashcard-prompt"></a>
 ## Spaced Repetition Flashcard Prompt
 
 ```
@@ -241,6 +245,7 @@ Format the output so I can easily copy into Anki or a flashcard app.
 
 ---
 
+<a id="mental-model-builder-prompt"></a>
 ## Mental Model Builder Prompt
 
 ```
@@ -325,6 +330,7 @@ Give me a checklist to run through when using [TOPIC]:
 
 ---
 
+<a id="socratic-learning-prompt"></a>
 ## Socratic Learning Prompt
 
 ```
@@ -377,6 +383,7 @@ Please begin the Socratic dialogue!
 
 ---
 
+<a id="interleaving-practice-prompt"></a>
 ## Interleaving Practice Prompt
 
 ```
@@ -443,6 +450,7 @@ Please create this interleaved session!
 
 ---
 
+<a id="elaborative-interrogation-prompt"></a>
 ## Elaborative Interrogation Prompt
 
 ```
@@ -505,6 +513,7 @@ Your feedback: [Correct/expand my reasoning]
 
 ---
 
+<a id="deliberate-practice-prompt"></a>
 ## Deliberate Practice Prompt
 
 ```
@@ -576,6 +585,7 @@ Please create this deliberate practice session!
 
 ---
 
+<a id="show-your-work-prompt"></a>
 ## Show Your Work Prompt
 
 ```
@@ -675,6 +685,7 @@ QUESTIONS I STILL HAVE:
 
 ---
 
+<a id="retrieval-practice-prompt"></a>
 ## Retrieval Practice Prompt
 
 ```
@@ -768,6 +779,7 @@ Sections to review more: _______
 
 ---
 
+<a id="interview-preparation-prompt"></a>
 ## Interview Preparation Prompt
 
 ```
@@ -870,6 +882,7 @@ Please customize the preparation accordingly!
 
 ---
 
+<a id="concept-connection-prompt"></a>
 ## Concept Connection Prompt
 
 ```
@@ -950,6 +963,7 @@ Please show me the connections!
 
 ---
 
+<a id="debug-my-understanding-prompt"></a>
 ## Debug My Understanding Prompt
 
 ```
@@ -1023,6 +1037,7 @@ After this session, rate my actual understanding:
 
 ---
 
+<a id="code-review-learning-prompt"></a>
 ## Code Review Learning Prompt
 
 ```
@@ -1096,6 +1111,7 @@ Give me a similar problem to apply what I learned from this review.
 
 ---
 
+<a id="project-based-learning-prompt"></a>
 ## Project-Based Learning Prompt
 
 ```
@@ -1172,6 +1188,7 @@ Please design this learning project!
 
 ---
 
+<a id="error-pattern-analysis-prompt"></a>
 ## Error Pattern Analysis Prompt
 
 ```
@@ -1277,6 +1294,7 @@ Help me understand why it happened and how to prevent it!
 
 ---
 
+<a id="comparison-deep-dive-prompt"></a>
 ## Comparison Deep Dive Prompt
 
 ```
@@ -1387,6 +1405,7 @@ Please clarify this!
 
 ---
 
+<a id="one-week-mastery-plan-prompt"></a>
 ## One-Week Mastery Plan Prompt
 
 ```
@@ -1522,6 +1541,7 @@ Please create my personalized week plan!
 
 ---
 
+<a id="quick-revision-prompt"></a>
 ## Quick Revision Prompt
 
 ```
