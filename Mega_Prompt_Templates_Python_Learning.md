@@ -9,31 +9,30 @@
 
 | # | Prompt | Description |
 |---|--------|-------------|
-| 1 | [First Principles Thinking](#1-first-principles-thinking-prompt) | Break down concepts to fundamentals |
-| 2 | [Feynman Technique](#2-feynman-technique-prompt) | Explain like teaching a child |
-| 3 | [Active Recall Generator](#3-active-recall-generator-prompt) | Test your memory actively |
-| 4 | [Spaced Repetition Flashcards](#4-spaced-repetition-flashcard-prompt) | Create Anki-style cards |
-| 5 | [Mental Model Builder](#5-mental-model-builder-prompt) | Visualize how things work |
-| 6 | [Socratic Learning](#6-socratic-learning-prompt) | Learn through questions |
-| 7 | [Interleaving Practice](#7-interleaving-practice-prompt) | Mix multiple topics |
-| 8 | [Elaborative Interrogation](#8-elaborative-interrogation-prompt) | Deep "why" questions |
-| 9 | [Deliberate Practice](#9-deliberate-practice-prompt) | Targeted skill improvement |
-| 10 | [Show Your Work](#10-show-your-work-prompt) | Step-by-step understanding |
-| 11 | [Retrieval Practice](#11-retrieval-practice-prompt) | Pull knowledge from memory |
-| 12 | [Interview Preparation](#12-interview-preparation-prompt) | Technical interview ready |
-| 13 | [Concept Connection](#13-concept-connection-prompt) | Link related concepts |
-| 14 | [Debug My Understanding](#14-debug-my-understanding-prompt) | Find knowledge gaps |
-| 15 | [Code Review Learning](#15-code-review-learning-prompt) | Learn from code reviews |
-| 16 | [Project-Based Learning](#16-project-based-learning-prompt) | Build to learn |
-| 17 | [Error Pattern Analysis](#17-error-pattern-analysis-prompt) | Learn from mistakes |
-| 18 | [Comparison Deep Dive](#18-comparison-deep-dive-prompt) | Compare similar concepts |
-| 19 | [One-Week Mastery Plan](#19-one-week-mastery-plan-prompt) | Structured learning plan |
-| 20 | [Quick Revision](#20-quick-revision-prompt) | Fast review sessions |
+| 1 | [First Principles Thinking](#first-principles-thinking-prompt) | Break down concepts to fundamentals |
+| 2 | [Feynman Technique](#feynman-technique-prompt) | Explain like teaching a child |
+| 3 | [Active Recall Generator](#active-recall-generator-prompt) | Test your memory actively |
+| 4 | [Spaced Repetition Flashcards](#spaced-repetition-flashcard-prompt) | Create Anki-style cards |
+| 5 | [Mental Model Builder](#mental-model-builder-prompt) | Visualize how things work |
+| 6 | [Socratic Learning](#socratic-learning-prompt) | Learn through questions |
+| 7 | [Interleaving Practice](#interleaving-practice-prompt) | Mix multiple topics |
+| 8 | [Elaborative Interrogation](#elaborative-interrogation-prompt) | Deep "why" questions |
+| 9 | [Deliberate Practice](#deliberate-practice-prompt) | Targeted skill improvement |
+| 10 | [Show Your Work](#show-your-work-prompt) | Step-by-step understanding |
+| 11 | [Retrieval Practice](#retrieval-practice-prompt) | Pull knowledge from memory |
+| 12 | [Interview Preparation](#interview-preparation-prompt) | Technical interview ready |
+| 13 | [Concept Connection](#concept-connection-prompt) | Link related concepts |
+| 14 | [Debug My Understanding](#debug-my-understanding-prompt) | Find knowledge gaps |
+| 15 | [Code Review Learning](#code-review-learning-prompt) | Learn from code reviews |
+| 16 | [Project-Based Learning](#project-based-learning-prompt) | Build to learn |
+| 17 | [Error Pattern Analysis](#error-pattern-analysis-prompt) | Learn from mistakes |
+| 18 | [Comparison Deep Dive](#comparison-deep-dive-prompt) | Compare similar concepts |
+| 19 | [One-Week Mastery Plan](#one-week-mastery-plan-prompt) | Structured learning plan |
+| 20 | [Quick Revision](#quick-revision-prompt) | Fast review sessions |
 
 ---
 
-<a id="1-first-principles-thinking-prompt"></a>
-# 1. FIRST PRINCIPLES THINKING PROMPT
+## First Principles Thinking Prompt
 
 ```
 I want to understand [TOPIC] using First Principles Thinking.
@@ -85,8 +84,7 @@ Please be Socratic - ask me questions to check my understanding at each step.
 
 ---
 
-<a id="2-feynman-technique-prompt"></a>
-# 2. FEYNMAN TECHNIQUE PROMPT
+## Feynman Technique Prompt
 
 ```
 I want to master [TOPIC] using the Feynman Technique.
@@ -131,8 +129,7 @@ Format each section clearly with examples and code snippets.
 
 ---
 
-<a id="3-active-recall-generator-prompt"></a>
-# 3. ACTIVE RECALL GENERATOR PROMPT
+## Active Recall Generator Prompt
 
 ```
 Generate a complete Active Recall study session for [TOPIC].
@@ -197,8 +194,7 @@ After I attempt these, provide detailed answers with explanations.
 
 ---
 
-<a id="4-spaced-repetition-flashcard-prompt"></a>
-# 4. SPACED REPETITION FLASHCARD PROMPT
+## Spaced Repetition Flashcard Prompt
 
 ```
 Create a complete Anki/Flashcard deck for [TOPIC].
@@ -245,8 +241,7 @@ Format the output so I can easily copy into Anki or a flashcard app.
 
 ---
 
-<a id="5-mental-model-builder-prompt"></a>
-# 5. MENTAL MODEL BUILDER PROMPT
+## Mental Model Builder Prompt
 
 ```
 Help me build a strong mental model for [TOPIC].
@@ -330,8 +325,7 @@ Give me a checklist to run through when using [TOPIC]:
 
 ---
 
-<a id="6-socratic-learning-prompt"></a>
-# 6. SOCRATIC LEARNING PROMPT
+## Socratic Learning Prompt
 
 ```
 Teach me [TOPIC] using the Socratic method.
@@ -383,8 +377,7 @@ Please begin the Socratic dialogue!
 
 ---
 
-<a id="7-interleaving-practice-prompt"></a>
-# 7. INTERLEAVING PRACTICE PROMPT
+## Interleaving Practice Prompt
 
 ```
 Create an interleaved practice session that mixes [TOPIC] with related concepts.
@@ -450,8 +443,7 @@ Please create this interleaved session!
 
 ---
 
-<a id="8-elaborative-interrogation-prompt"></a>
-# 8. ELABORATIVE INTERROGATION PROMPT
+## Elaborative Interrogation Prompt
 
 ```
 Help me deeply understand [TOPIC] through Elaborative Interrogation.
@@ -513,8 +505,7 @@ Your feedback: [Correct/expand my reasoning]
 
 ---
 
-<a id="9-deliberate-practice-prompt"></a>
-# 9. DELIBERATE PRACTICE PROMPT
+## Deliberate Practice Prompt
 
 ```
 Design a Deliberate Practice session for [TOPIC].
@@ -585,8 +576,7 @@ Please create this deliberate practice session!
 
 ---
 
-<a id="10-show-your-work-prompt"></a>
-# 10. SHOW YOUR WORK PROMPT
+## Show Your Work Prompt
 
 ```
 Guide me through the "Show Your Work" method for [TOPIC].
@@ -685,8 +675,7 @@ QUESTIONS I STILL HAVE:
 
 ---
 
-<a id="11-retrieval-practice-prompt"></a>
-# 11. RETRIEVAL PRACTICE PROMPT
+## Retrieval Practice Prompt
 
 ```
 Create a comprehensive Retrieval Practice session for [TOPIC].
@@ -779,8 +768,7 @@ Sections to review more: _______
 
 ---
 
-<a id="12-interview-preparation-prompt"></a>
-# 12. INTERVIEW PREPARATION PROMPT
+## Interview Preparation Prompt
 
 ```
 Prepare me to discuss [TOPIC] in a technical interview.
@@ -882,8 +870,7 @@ Please customize the preparation accordingly!
 
 ---
 
-<a id="13-concept-connection-prompt"></a>
-# 13. CONCEPT CONNECTION PROMPT
+## Concept Connection Prompt
 
 ```
 Help me connect [TOPIC] to the broader Python ecosystem.
@@ -963,8 +950,7 @@ Please show me the connections!
 
 ---
 
-<a id="14-debug-my-understanding-prompt"></a>
-# 14. DEBUG MY UNDERSTANDING PROMPT
+## Debug My Understanding Prompt
 
 ```
 Help me debug my understanding of [TOPIC].
@@ -1037,8 +1023,7 @@ After this session, rate my actual understanding:
 
 ---
 
-<a id="15-code-review-learning-prompt"></a>
-# 15. CODE REVIEW LEARNING PROMPT
+## Code Review Learning Prompt
 
 ```
 Use code review to teach me about [TOPIC].
@@ -1111,8 +1096,7 @@ Give me a similar problem to apply what I learned from this review.
 
 ---
 
-<a id="16-project-based-learning-prompt"></a>
-# 16. PROJECT-BASED LEARNING PROMPT
+## Project-Based Learning Prompt
 
 ```
 Design a project that teaches me [TOPIC] through building.
@@ -1188,8 +1172,7 @@ Please design this learning project!
 
 ---
 
-<a id="17-error-pattern-analysis-prompt"></a>
-# 17. ERROR PATTERN ANALYSIS PROMPT
+## Error Pattern Analysis Prompt
 
 ```
 Teach me [TOPIC] through common errors and how to fix them.
@@ -1294,8 +1277,7 @@ Help me understand why it happened and how to prevent it!
 
 ---
 
-<a id="18-comparison-deep-dive-prompt"></a>
-# 18. COMPARISON DEEP DIVE PROMPT
+## Comparison Deep Dive Prompt
 
 ```
 Help me deeply understand [TOPIC A] vs [TOPIC B].
@@ -1405,8 +1387,7 @@ Please clarify this!
 
 ---
 
-<a id="19-one-week-mastery-plan-prompt"></a>
-# 19. ONE-WEEK MASTERY PLAN PROMPT
+## One-Week Mastery Plan Prompt
 
 ```
 Create a one-week intensive plan to master [TOPIC].
@@ -1541,8 +1522,7 @@ Please create my personalized week plan!
 
 ---
 
-<a id="20-quick-revision-prompt"></a>
-# 20. QUICK REVISION PROMPT
+## Quick Revision Prompt
 
 ```
 I need a quick revision session for [TOPIC]. I have [X] minutes.
