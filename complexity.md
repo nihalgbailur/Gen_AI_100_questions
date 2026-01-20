@@ -71,11 +71,11 @@ The notes highlight a specific comparison of common complexities:
 3.  **O(N)**: Linear. Grows proportionally (e.g., Simple Loop).
 
 ```mermaid
-xychart-beta
-    title "Growth Comparison: O(1) vs O(log N) vs O(N)"
-    x-axis "Input Size (N)" [1, 10, 100, 1000]
-    y-axis "Operations" 0 --> 1000
-    line [1, 1, 1, 1] text "O(1)"
-    line [1, 3, 6, 10] text "O(log N)"
-    line [1, 10, 100, 1000] text "O(N)"
+graph TD
+    c1[O 1 - Constant] -->|Grows Slower Than| clog[O log N - Logarithmic]
+    clog -->|Grows Slower Than| cn[O N - Linear]
+    
+    style c1 fill:#99ff99,stroke:#333,stroke-width:2px
+    style clog fill:#ffff99,stroke:#333,stroke-width:2px
+    style cn fill:#ff9999,stroke:#333,stroke-width:2px
 ```
