@@ -7,6 +7,17 @@ FastAPI is built on a few fundamental concepts:
 - Python Functions: You write standard Python logic; FastAPI calls these functions when a request matches a specific route.
 - Type Hints: Python annotations (e.g., id: int) that act as a "bouncer," validating data before it ever reaches your code.
 
+```mermaid
+graph LR
+    Client([Client / Browser]) <-->|HTTP Request| Server[FastAPI Server]
+    Server -->|Router| Path{Match Path?}
+    Path -->|Yes| Valid{Validation?}
+    Valid -->|Pass| Func[Python Function]
+    Valid --x|Fail| Error[422 Error]
+    Func -->|Return Data| Server
+    Server <-->|HTTP Response| Client
+```
+
 ## 2. Setup & Environment
 ### The "Golden Path" for Installation
 1. Virtual Environment (Mandatory): Isolate your project dependencies.
@@ -42,10 +53,35 @@ def root():
     return {"message": "Hello World"}
 ```
 
+```mermaid
+graph TD
+    A[main.py] --> B[App Instance]
+    A --> C[Decorator]
+    A --> D[Function]
+    B["app = FastAPI()"]
+    C["@app.get('/')"]
+    D["def root(): return {...}"]
+    B -.->|Registers| C
+    C -.->|Wraps| D
+```
+
 ### Running the App
 Development Mode: `fastapi dev main.py`  
 Behavior: Auto-reloads on file save.  
 Consequence: "Goldfish Memory" -- Global variables (in-memory lists/counters) reset every time you save.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Running
+    Running --> FileSaved: User saves file
+    FileSaved --> Restarting: WatchFile detects change
+    Restarting --> MemoryWiped: Process Killed
+    MemoryWiped --> Running: Process Started
+    note right of MemoryWiped
+        Global variables reset here
+        (Goldfish Memory)
+    end note
+```
 
 Production Mode: `fastapi run main.py`  
 Behavior: Stable, no auto-reload.
@@ -75,6 +111,24 @@ def get_post(post_id: int):  # Type hint 'int' validates input automatically
     raise HTTPException(status_code=404, detail="Post not found")
 ```
 The "Bouncer" Effect: If a user visits `/api/posts/abc`, FastAPI blocks the request before your function runs because `abc` is not an `int`.
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Bouncer as FastAPI (Type Hint)
+    participant Func as Your Function
+    
+    User->>Bouncer: GET /items/123
+    Note right of Bouncer: post_id: int
+    Bouncer->>Bouncer: Check "123" is int?
+    Bouncer->>Func: YES. Run get_post(123)
+    Func-->>User: Return Data
+
+    User->>Bouncer: GET /items/abc
+    Bouncer->>Bouncer: Check "abc" is int?
+    Bouncer--xUser: NO. Throw 422 Error
+    Note right of Func: Function never runs!
+```
 
 ## 5. Advanced Configuration
 ### Returning HTML (Changing Media Type)
