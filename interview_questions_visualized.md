@@ -121,11 +121,11 @@ sequenceDiagram
 ```mermaid
 graph TD
     subgraph Stack
-        F1[main()] --> F2[func_a()] --> F3[func_b()]
+        F1["main()"] --> F2["func_a()"] --> F3["func_b()"]
     end
     subgraph Heap
-        Obj1[List Object]
-        Obj2[Dict Object]
+        Obj1["List Object"]
+        Obj2["Dict Object"]
     end
     F3 -.->|reference| Obj1
 ```
