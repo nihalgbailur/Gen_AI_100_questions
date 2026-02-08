@@ -1,6 +1,12 @@
 # Complexity Analysis (CS Fundamentals)
 *Based on notes from Gaurav Sen*
 
+> **Audience:** Public learners  
+> **Prerequisites:** Basic programming, loops, and recursion familiarity  
+> **Estimated time:** 3-4 hours  
+> **Last reviewed:** 2026-02-08  
+> **Tags:** `DSA`, `Python`
+
 ---
 
 ## 📚 Table of Contents
@@ -912,4 +918,8 @@ Try to identify the complexity before revealing the answer:
 
 ---
 
-*Last Updated: January 2026*
+*Last Updated: February 8, 2026*
+
+---
+
+**Next doc:** [`leetcode_easy.md`](leetcode_easy.md)

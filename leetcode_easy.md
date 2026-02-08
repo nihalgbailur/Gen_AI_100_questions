@@ -1,6 +1,12 @@
 # LeetCode Easy Problems - Python Solutions
 *10 Classic Problems with Explanations*
 
+> **Audience:** Public learners  
+> **Prerequisites:** Python basics, arrays, strings, and linked list fundamentals  
+> **Estimated time:** 2-3 hours  
+> **Last reviewed:** 2026-02-08  
+> **Tags:** `DSA`, `Python`
+
 ---
 
 ## 1. Two Sum (Problem #1)
@@ -363,4 +369,8 @@ def hasCycle(head):
 
 ---
 
-*Last Updated: January 2026*
+*Last Updated: February 8, 2026*
+
+---
+
+**Next doc:** [`Mega_Prompt_Templates_Python_Learning.md`](Mega_Prompt_Templates_Python_Learning.md)

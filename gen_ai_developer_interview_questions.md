@@ -1,4 +1,10 @@
-# 🤖 100 Most Asked GenAI Developer Interview Questions (2025)
+# 🤖 100 Most Asked GenAI Developer Interview Questions
+
+> **Audience:** Public learners  
+> **Prerequisites:** Python basics, introductory ML concepts, and API usage familiarity  
+> **Estimated time:** 5-7 hours  
+> **Last reviewed:** 2026-02-08  
+> **Tags:** `GenAI`, `Python`
 
 > [!NOTE]
 > A comprehensive guide to mastering Generative AI concepts, from foundations to production deployment.
@@ -268,7 +274,7 @@ $$ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right
 4.  **Score**: Dot product $(Q \cdot K)$ determines relevance.
 
 > [!TIP]
-> **Visual Reference**: [Transformer Architecture Diagram (Attention Is All You Need)](https://miro.medium.com/v2/resize:fit:1400/1*BhzGVskXDZFPthtP CLgWww.png)
+> **Visual Reference**: [Transformer Architecture Diagram (Attention Is All You Need)](https://miro.medium.com/v2/resize:fit:1400/1*BhzGVskXDZFPthtPCLgWww.png)
 
 
 ### Q32. What is multi-head attention and why is it beneficial?
@@ -843,3 +849,7 @@ This comprehensive list covers the fundamental to advanced concepts that Gen AI 
 The field evolves rapidly, so continuous learning is essential. Focus on fundamentals, build projects, and stay updated with latest research and best practices.
 
 **Good luck with your Gen AI interviews!** 🚀
+
+---
+
+**Next doc:** [`technical_fastapi.md`](technical_fastapi.md)

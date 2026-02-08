@@ -1,6 +1,12 @@
 # AWS Technical Guide
 *Comprehensive Learning & Interview Reference*
 
+> **Audience:** Public learners  
+> **Prerequisites:** Cloud basics, networking fundamentals, and Linux/CLI familiarity  
+> **Estimated time:** 4-5 hours  
+> **Last reviewed:** 2026-02-08  
+> **Tags:** `Cloud`, `DevOps`, `GenAI`
+
 > 💡 **Format**: Each topic has a **🎯 One-Liner** (quick interview response) + **📖 Elaboration** (detailed explanation)
 
 ---
@@ -27,9 +33,9 @@
 **🎯 One-Liner**: "AWS is Amazon's cloud platform offering 200+ services including compute, storage, databases, and AI/ML on a pay-as-you-go model."
 
 **📖 Elaboration**:
-- **Global Infrastructure**: 30+ Regions, 90+ Availability Zones
+- **Global Infrastructure**: 30+ Regions, 90+ Availability Zones ([source](https://aws.amazon.com/about-aws/global-infrastructure/), last verified 2026-02-08)
 - **Pricing Model**: Pay only for what you use (no upfront costs)
-- **Market Leader**: ~32% cloud market share (largest)
+- **Market Position**: One of the largest cloud providers by market share
 
 ### AWS Global Infrastructure
 
@@ -886,4 +892,8 @@ flowchart TD
 
 ---
 
-*Last Updated: January 2026*
+*Last Updated: February 8, 2026*
+
+---
+
+**Next doc:** [`complexity.md`](complexity.md)

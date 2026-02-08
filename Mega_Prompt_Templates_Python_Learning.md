@@ -1,5 +1,11 @@
 # 🎯 MEGA PROMPT TEMPLATES: Master Any Python Topic
 
+> **Audience:** Public learners  
+> **Prerequisites:** Basic Python syntax and familiarity with AI chat tools  
+> **Estimated time:** 2-4 hours  
+> **Last reviewed:** 2026-02-08  
+> **Tags:** `Python`, `GenAI`
+
 > Copy-paste these prompts and replace [TOPIC] with any concept you want to learn.
 > Use these with Claude or any AI tutor for structured, deep learning.
 
@@ -1695,3 +1701,7 @@ Day 7: Quick Revision + Retrieval Practice → Cement learning
 *"The best time to plant a tree was 20 years ago. The second best time is now."*
 
 **Start with any prompt. Start today. Start learning!** 🚀
+
+---
+
+**Next doc:** [`Python_Learning_Mastery_Techniques.md`](Python_Learning_Mastery_Techniques.md)

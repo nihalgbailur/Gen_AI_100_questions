@@ -1,5 +1,11 @@
 # FastAPI Technical Notes: From First Principles
 
+> **Audience:** Public learners  
+> **Prerequisites:** Python basics and foundational HTTP request/response concepts  
+> **Estimated time:** 1-2 hours  
+> **Last reviewed:** 2026-02-08  
+> **Tags:** `Web API`, `Python`
+
 ## 1. Core Primitives & Theory
 FastAPI is built on a few fundamental concepts:
 - HTTP: The protocol where clients send requests (Method + Path + Headers + Body) and servers send responses (Status Code + Headers + Body).
@@ -207,3 +213,7 @@ Q4: By default, what format does FastAPI serialize return values into? How do yo
 Q5: What is the purpose of include_in_schema=False? A: It keeps an endpoint functional but hides it from the auto-generated OpenAPI documentation (Swagger UI). This is useful for internal tools, health checks, or landing pages that shouldn't clutter the public API docs.
 
 Q6: What does it mean when we say localhost is a "loopback"? A: It means the network request does not leave the computer. The signal is sent from the client (browser) and immediately loops back to the server running on the same machine.
+
+---
+
+**Next doc:** [`docker.md`](docker.md)

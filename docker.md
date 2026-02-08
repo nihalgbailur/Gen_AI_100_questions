@@ -1,6 +1,12 @@
 # Docker & DevOps Technical Guide
 *Comprehensive Learning & Interview Reference*
 
+> **Audience:** Public learners  
+> **Prerequisites:** Command-line basics and basic application deployment concepts  
+> **Estimated time:** 4-5 hours  
+> **Last reviewed:** 2026-02-08  
+> **Tags:** `DevOps`, `Cloud`
+
 > 💡 **Format**: Each topic has a **🎯 One-Liner** (quick interview response) + **📖 Elaboration** (detailed explanation)
 
 ---
@@ -930,4 +936,8 @@ flowchart LR
 
 ---
 
-*Last Updated: January 2026*
+*Last Updated: February 8, 2026*
+
+---
+
+**Next doc:** [`aws.md`](aws.md)

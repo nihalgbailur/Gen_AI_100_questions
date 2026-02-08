@@ -1,6 +1,12 @@
 # Visualized Technical Interview Q&A
 *Comprehensive Answer Key with Interview-Ready Responses*
 
+> **Audience:** Public learners  
+> **Prerequisites:** Python fundamentals and basic system/API knowledge  
+> **Estimated time:** 3-4 hours  
+> **Last reviewed:** 2026-02-08  
+> **Tags:** `Python`, `GenAI`, `DSA`, `Web API`
+
 > 💡 **Format**: Each answer has a **🎯 One-Liner** (quick response) + **📖 Elaboration** (when they ask "Can you explain more?")
 
 ---
@@ -784,4 +790,8 @@ git rebase -i HEAD~3  # Interactive: squash, edit, reorder last 3 commits
 
 ---
 
-*Last Updated: January 2026*
+*Last Updated: February 8, 2026*
+
+---
+
+**Next doc:** [`gen_ai_developer_interview_questions.md`](gen_ai_developer_interview_questions.md)

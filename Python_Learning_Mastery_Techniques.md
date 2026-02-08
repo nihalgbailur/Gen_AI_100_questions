@@ -1,5 +1,11 @@
 # 🧠 Python Learning Mastery: Evidence-Based Techniques for Deep Understanding & Interview Success
 
+> **Audience:** Public learners  
+> **Prerequisites:** Beginner Python fundamentals and willingness to practice consistently  
+> **Estimated time:** 4-6 hours (plus ongoing practice)  
+> **Last reviewed:** 2026-02-08  
+> **Tags:** `Python`, `DSA`
+
 > "The mind is not a vessel to be filled, but a fire to be kindled." — Plutarch
 
 This guide combines cognitive science-backed learning techniques with Python-specific strategies to help you achieve **deep mastery** rather than surface-level familiarity.
@@ -1293,3 +1299,7 @@ WINS THIS WEEK:
 *"The expert in anything was once a beginner." — Helen Hayes*
 
 Happy Learning! 🚀
+
+---
+
+**Next doc:** [`interview_questions_visualized.md`](interview_questions_visualized.md)
