@@ -37,7 +37,7 @@ For explanation sections, prefer:
 ## Links and Citations
 - Use relative links for repository files.
 - Use inline source format for time-sensitive claims:
-  - `([source](https://example.com/source), last verified YYYY-MM-DD)`
+  - `([source](https://example.com), last verified YYYY-MM-DD)`
 - Validate links before merging.
 
 ## Tone and Readability

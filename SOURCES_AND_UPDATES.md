@@ -5,7 +5,7 @@ This file defines how factual, time-sensitive, and numeric claims are maintained
 ## Citation Format
 Use this format for factual claims that can go stale:
 
-`Claim text ([source](https://example.com/source), last verified YYYY-MM-DD)`
+`Claim text ([source](https://example.com), last verified YYYY-MM-DD)`
 
 Example:
 `30+ Regions, 90+ Availability Zones ([source](https://aws.amazon.com/about-aws/global-infrastructure/), last verified 2026-02-08)`
