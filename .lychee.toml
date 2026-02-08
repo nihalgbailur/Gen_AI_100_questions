@@ -1,0 +1,8 @@
+include_fragments = true
+timeout = 20
+max_retries = 3
+retry_wait_time = 2
+accept = [200, 206, 429]
+exclude = [
+  "https://miro.medium.com/.*",
+]

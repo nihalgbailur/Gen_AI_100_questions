@@ -1,5 +1,7 @@
 # Gen AI + Python Interview Learning Repository
 
+[![Docs Quality](https://github.com/nihalgbailur/Gen_AI_100_questions/actions/workflows/docs-quality.yml/badge.svg)](https://github.com/nihalgbailur/Gen_AI_100_questions/actions/workflows/docs-quality.yml)
+
 This repository is a structured learning collection for public learners preparing for Python, GenAI, cloud, DevOps, API, and DSA interviews.
 
 ## Who This Is For
@@ -10,6 +12,12 @@ This repository is a structured learning collection for public learners preparin
 1. Open [`LEARNING_PATH.md`](LEARNING_PATH.md) and choose a track.
 2. Use [`STUDY_PLAN_30_DAYS.md`](STUDY_PLAN_30_DAYS.md) for day-wise execution.
 3. Start with the first core topic below and follow each file's `Next doc` link.
+
+## Quality Gates
+Every PR/push is checked by CI with:
+- `markdown-lint`
+- `link-check`
+- `topic-structure-check`
 
 ## Core Topic Map
 | File | Focus | Estimated Time | Next Doc |

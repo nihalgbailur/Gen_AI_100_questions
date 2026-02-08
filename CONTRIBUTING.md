@@ -20,6 +20,17 @@ Thanks for contributing. This repository is documentation-first and optimized fo
 - [ ] `README.md` is updated if navigation changed.
 - [ ] `CHANGELOG.md` entry added.
 
+## CI Expectations
+All PRs and pushes to `main` must pass:
+- `markdown-lint`
+- `link-check`
+- `topic-structure-check`
+
+### Failure Triage
+1. Fix markdown lint issues first and re-run checks.
+2. Fix broken local links and broken anchors in docs.
+3. If a failure is caused by an external flaky link, update `.lychee.toml` allowlist only with a short rationale in the PR description.
+
 ## File Naming Rules
 - Use lowercase with underscores for new topic docs when practical.
 - Keep descriptive names (example: `study_plan_30_days.md` style).
