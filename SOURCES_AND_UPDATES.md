@@ -18,10 +18,10 @@ Example:
 ## Source Registry
 | Claim / Topic | File | Source | Last Verified | Next Review |
 | --- | --- | --- | --- | --- |
-| AWS global infrastructure counts | [`aws.md`](aws.md) | [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) | 2026-02-08 | 2026-03-08 |
-| Bedrock model examples and provider naming | [`aws.md`](aws.md) | [Amazon Bedrock Docs](https://docs.aws.amazon.com/bedrock/) | 2026-02-08 | 2026-03-08 |
-| FastAPI behavior and auto docs assumptions | [`technical_fastapi.md`](technical_fastapi.md) | [FastAPI Official Docs](https://fastapi.tiangolo.com/) | 2026-02-08 | 2026-05-08 |
-| Docker command semantics and architecture descriptions | [`docker.md`](docker.md) | [Docker Docs](https://docs.docker.com/) | 2026-02-08 | 2026-05-08 |
+| AWS global infrastructure counts | [`learning/aws.md`](learning/aws.md) | [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) | 2026-02-08 | 2026-03-08 |
+| Bedrock model examples and provider naming | [`learning/aws.md`](learning/aws.md) | [Amazon Bedrock Docs](https://docs.aws.amazon.com/bedrock/) | 2026-02-08 | 2026-03-08 |
+| FastAPI behavior and auto docs assumptions | [`learning/technical_fastapi.md`](learning/technical_fastapi.md) | [FastAPI Official Docs](https://fastapi.tiangolo.com/) | 2026-02-08 | 2026-05-08 |
+| Docker command semantics and architecture descriptions | [`learning/docker.md`](learning/docker.md) | [Docker Docs](https://docs.docker.com/) | 2026-02-08 | 2026-05-08 |
 
 ## Time-Sensitive Claim Rules
 - Avoid year-bound titles unless the year is required.

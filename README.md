@@ -9,8 +9,8 @@ This repository is a structured learning collection for public learners preparin
 - Developers who want quick revision sheets plus deeper conceptual references.
 
 ## 30-Second Quick Start
-1. Open [`LEARNING_PATH.md`](LEARNING_PATH.md) and choose a track.
-2. Use [`STUDY_PLAN_30_DAYS.md`](STUDY_PLAN_30_DAYS.md) for day-wise execution.
+1. Open [`learning/LEARNING_PATH.md`](learning/LEARNING_PATH.md) and choose a track.
+2. Use [`learning/STUDY_PLAN_30_DAYS.md`](learning/STUDY_PLAN_30_DAYS.md) for day-wise execution.
 3. Start with the first core topic below and follow each file's `Next doc` link.
 
 ## Quality Gates
@@ -22,21 +22,21 @@ Every PR/push is checked by CI with:
 ## Core Topic Map
 | File | Focus | Estimated Time | Next Doc |
 | --- | --- | --- | --- |
-| [`Mega_Prompt_Templates_Python_Learning.md`](Mega_Prompt_Templates_Python_Learning.md) | Prompt-driven Python learning workflows | 2-4 hours | [`Python_Learning_Mastery_Techniques.md`](Python_Learning_Mastery_Techniques.md) |
-| [`Python_Learning_Mastery_Techniques.md`](Python_Learning_Mastery_Techniques.md) | Cognitive-science-based Python learning methods | 4-6 hours | [`interview_questions_visualized.md`](interview_questions_visualized.md) |
-| [`interview_questions_visualized.md`](interview_questions_visualized.md) | Visualized interview answers across topics | 3-4 hours | [`gen_ai_developer_interview_questions.md`](gen_ai_developer_interview_questions.md) |
-| [`gen_ai_developer_interview_questions.md`](gen_ai_developer_interview_questions.md) | 100 GenAI interview questions and answers | 5-7 hours | [`technical_fastapi.md`](technical_fastapi.md) |
-| [`technical_fastapi.md`](technical_fastapi.md) | FastAPI concepts and interview-ready notes | 1-2 hours | [`docker.md`](docker.md) |
-| [`docker.md`](docker.md) | Docker and DevOps interview reference | 4-5 hours | [`aws.md`](aws.md) |
-| [`aws.md`](aws.md) | AWS fundamentals and interview guide | 4-5 hours | [`complexity.md`](complexity.md) |
-| [`complexity.md`](complexity.md) | Big-O and complexity fundamentals | 3-4 hours | [`leetcode_easy.md`](leetcode_easy.md) |
-| [`leetcode_easy.md`](leetcode_easy.md) | LeetCode easy patterns with Python solutions | 2-3 hours | [`Mega_Prompt_Templates_Python_Learning.md`](Mega_Prompt_Templates_Python_Learning.md) |
+| [`learning/Mega_Prompt_Templates_Python_Learning.md`](learning/Mega_Prompt_Templates_Python_Learning.md) | Prompt-driven Python learning workflows | 2-4 hours | [`learning/Python_Learning_Mastery_Techniques.md`](learning/Python_Learning_Mastery_Techniques.md) |
+| [`learning/Python_Learning_Mastery_Techniques.md`](learning/Python_Learning_Mastery_Techniques.md) | Cognitive-science-based Python learning methods | 4-6 hours | [`learning/interview_questions_visualized.md`](learning/interview_questions_visualized.md) |
+| [`learning/interview_questions_visualized.md`](learning/interview_questions_visualized.md) | Visualized interview answers across topics | 3-4 hours | [`learning/gen_ai_developer_interview_questions.md`](learning/gen_ai_developer_interview_questions.md) |
+| [`learning/gen_ai_developer_interview_questions.md`](learning/gen_ai_developer_interview_questions.md) | 100 GenAI interview questions and answers | 5-7 hours | [`learning/technical_fastapi.md`](learning/technical_fastapi.md) |
+| [`learning/technical_fastapi.md`](learning/technical_fastapi.md) | FastAPI concepts and interview-ready notes | 1-2 hours | [`learning/docker.md`](learning/docker.md) |
+| [`learning/docker.md`](learning/docker.md) | Docker and DevOps interview reference | 4-5 hours | [`learning/aws.md`](learning/aws.md) |
+| [`learning/aws.md`](learning/aws.md) | AWS fundamentals and interview guide | 4-5 hours | [`learning/complexity.md`](learning/complexity.md) |
+| [`learning/complexity.md`](learning/complexity.md) | Big-O and complexity fundamentals | 3-4 hours | [`learning/leetcode_easy.md`](learning/leetcode_easy.md) |
+| [`learning/leetcode_easy.md`](learning/leetcode_easy.md) | LeetCode easy patterns with Python solutions | 2-3 hours | [`learning/Mega_Prompt_Templates_Python_Learning.md`](learning/Mega_Prompt_Templates_Python_Learning.md) |
 
 ## Learning and Governance Docs
-- [`LEARNING_PATH.md`](LEARNING_PATH.md): Beginner, intermediate, and interview sprint tracks.
-- [`STUDY_PLAN_30_DAYS.md`](STUDY_PLAN_30_DAYS.md): Daily checklist execution plan.
+- [`learning/LEARNING_PATH.md`](learning/LEARNING_PATH.md): Beginner, intermediate, and interview sprint tracks.
+- [`learning/STUDY_PLAN_30_DAYS.md`](learning/STUDY_PLAN_30_DAYS.md): Daily checklist execution plan.
 - [`SOURCES_AND_UPDATES.md`](SOURCES_AND_UPDATES.md): Citation format and freshness policy.
-- [`FAQ.md`](FAQ.md): Common learner questions.
+- [`learning/FAQ.md`](learning/FAQ.md): Common learner questions.
 - [`STYLE_GUIDE.md`](STYLE_GUIDE.md): Markdown structure and writing conventions.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md): How to propose updates.
 - [`CHANGELOG.md`](CHANGELOG.md): Repository documentation history.

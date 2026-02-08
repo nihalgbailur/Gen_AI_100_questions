@@ -2,15 +2,15 @@
 set -euo pipefail
 
 core_topic_docs=(
-  "Mega_Prompt_Templates_Python_Learning.md"
-  "Python_Learning_Mastery_Techniques.md"
-  "aws.md"
-  "complexity.md"
-  "docker.md"
-  "gen_ai_developer_interview_questions.md"
-  "interview_questions_visualized.md"
-  "leetcode_easy.md"
-  "technical_fastapi.md"
+  "learning/Mega_Prompt_Templates_Python_Learning.md"
+  "learning/Python_Learning_Mastery_Techniques.md"
+  "learning/aws.md"
+  "learning/complexity.md"
+  "learning/docker.md"
+  "learning/gen_ai_developer_interview_questions.md"
+  "learning/interview_questions_visualized.md"
+  "learning/leetcode_easy.md"
+  "learning/technical_fastapi.md"
 )
 
 required_metadata=(

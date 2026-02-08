@@ -1,7 +1,7 @@
 # FAQ
 
 ## How should I start if I am overwhelmed?
-Start with [`LEARNING_PATH.md`](LEARNING_PATH.md), choose Track A, and follow the order in [`README.md`](README.md).
+Start with [`LEARNING_PATH.md`](LEARNING_PATH.md), choose Track A, and follow the order in [`../README.md`](../README.md).
 
 ## Do I need to read every file fully?
 No. Use one-liner sections first, then deep-dive only into weak topics.
@@ -24,4 +24,4 @@ Start with:
 - [`technical_fastapi.md`](technical_fastapi.md) for API/system discussion support.
 
 ## How do I verify if a claim is still current?
-Follow [`SOURCES_AND_UPDATES.md`](SOURCES_AND_UPDATES.md). If a numeric/datetime claim has no citation or old verification date, update it before relying on it.
+Follow [`../SOURCES_AND_UPDATES.md`](../SOURCES_AND_UPDATES.md). If a numeric/datetime claim has no citation or old verification date, update it before relying on it.
