@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docker Concept Lab</title>
+    <meta
+      name="description"
+      content="Step-by-step animated explanations for core Docker concepts, synced from learning/docker.md."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/tokyo-night-dark.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./concept-lab.css" />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="./concept-lab.js"></script>
+  </head>
+  <body>
+    <div class="lab-backdrop" aria-hidden="true"></div>
+
+    <header class="lab-header">
+      <div class="header-nav">
+        <a class="back-link" href="./index.html">Back to Doc Explorer</a>
+        <a class="header-source-link" id="header-source-link" href="./index.html?section=image-vs-container">
+          Open Source Section
+        </a>
+      </div>
+      <p class="eyebrow">Interactive Learning Mode</p>
+      <h1>Docker Concept Lab</h1>
+      <p class="subtitle">
+        Animated, step-by-step explanations for lifecycle, layers, networking, and volumes.
+      </p>
+      <div id="status-banner" class="status is-info" role="status" aria-live="polite"></div>
+    </header>
+
+    <main class="lab-layout">
+      <section class="tabs-panel" aria-label="Concept selection and controls">
+        <div class="tablist" role="tablist" aria-label="Docker concepts">
+          <button
+            id="tab-image-container"
+            class="tab is-active"
+            role="tab"
+            aria-selected="true"
+            aria-controls="concept-stage"
+            data-concept="image-container"
+            type="button"
+          >
+            Image vs Container
+          </button>
+          <button
+            id="tab-layers"
+            class="tab"
+            role="tab"
+            aria-selected="false"
+            aria-controls="concept-stage"
+            data-concept="layers"
+            type="button"
+          >
+            Layers & Cache
+          </button>
+          <button
+            id="tab-networking"
+            class="tab"
+            role="tab"
+            aria-selected="false"
+            aria-controls="concept-stage"
+            data-concept="networking"
+            type="button"
+          >
+            Networking
+          </button>
+          <button
+            id="tab-volumes"
+            class="tab"
+            role="tab"
+            aria-selected="false"
+            aria-controls="concept-stage"
+            data-concept="volumes"
+            type="button"
+          >
+            Volumes
+          </button>
+        </div>
+
+        <div class="timeline-panel">
+          <p id="step-label" class="step-label">Step 1</p>
+          <div id="timeline-track" class="timeline-track" aria-label="Animation timeline"></div>
+        </div>
+
+        <div id="step-controls" class="controls" tabindex="0" aria-label="Animation controls">
+          <button id="prev-step" class="control-btn" type="button">Prev</button>
+          <button id="play-pause" class="control-btn primary" type="button">Play</button>
+          <button id="next-step" class="control-btn" type="button">Next</button>
+          <button id="reset-step" class="control-btn" type="button">Reset</button>
+        </div>
+      </section>
+
+      <section class="stage-panel" id="concept-stage" aria-label="Animated concept stage">
+        <svg
+          id="concept-svg"
+          viewBox="0 0 960 480"
+          role="img"
+          aria-label="Docker concept animation"
+          preserveAspectRatio="xMidYMid meet"
+        ></svg>
+      </section>
+
+      <aside class="detail-panel" aria-label="Concept details">
+        <p class="source-label">Source Section</p>
+        <a id="source-link" class="source-link" href="./index.html?section=image-vs-container">
+          Open in Doc Explorer
+        </a>
+        <h2 id="concept-title">Image vs Container</h2>
+        <p id="one-liner" class="one-liner"></p>
+        <p id="detail-text" class="detail-text"></p>
+        <div class="code-panel">
+          <div class="code-header">
+            <span>Command Snippet</span>
+            <button id="copy-command" class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre><code id="command-code" class="language-bash"></code></pre>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>

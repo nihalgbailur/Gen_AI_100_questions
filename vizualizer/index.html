@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docker Guide Visualizer</title>
+    <meta
+      name="description"
+      content="Interactive visualizer for learning/docker.md with markdown rendering, Mermaid diagrams, and study navigation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/tokyo-night-dark.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.2.4/purify.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="backdrop" aria-hidden="true"></div>
+    <div class="top-progress" aria-hidden="true">
+      <div id="progress-bar"></div>
+    </div>
+
+    <header class="app-header">
+      <div class="header-main">
+        <div class="headline-group">
+          <p class="eyebrow">Docker Study Workspace</p>
+          <h1>Docker.md Website Visualizer</h1>
+        </div>
+        <div class="controls">
+          <a class="concept-lab-link" href="./concept-lab.html">Concept Lab</a>
+          <button id="toc-toggle" class="toc-toggle" type="button" aria-expanded="false">
+            Contents
+          </button>
+          <label class="search-wrap" for="search-input">
+            <span>Search</span>
+            <input
+              id="search-input"
+              name="search"
+              type="search"
+              placeholder="Find topics, commands, or terms"
+              autocomplete="off"
+              spellcheck="false"
+            />
+          </label>
+        </div>
+      </div>
+      <div id="status-banner" class="status is-info" role="status" aria-live="polite"></div>
+      <section id="meta" class="meta-grid" aria-label="Document metadata"></section>
+    </header>
+
+    <div class="layout">
+      <aside id="sidebar" class="sidebar" aria-label="Table of contents">
+        <h2 class="panel-title">Contents</h2>
+        <nav id="toc"></nav>
+      </aside>
+
+      <main class="main-panel">
+        <article id="content" class="content" tabindex="-1" aria-label="Docker guide content"></article>
+      </main>
+
+      <aside class="rail" aria-label="Reading summary">
+        <h2 class="panel-title">Session</h2>
+        <div class="stat-card">
+          <p class="stat-label">Sections</p>
+          <p id="section-count" class="stat-value">0</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-label">Matches</p>
+          <p id="match-count" class="stat-value">0</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-label">Active</p>
+          <p id="active-section" class="stat-value small">None</p>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
