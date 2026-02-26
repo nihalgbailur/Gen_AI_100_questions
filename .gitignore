@@ -1,0 +1,25 @@
+# macOS Finder metadata
+.DS_Store
+**/.DS_Store
+.DS_Store.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+    
